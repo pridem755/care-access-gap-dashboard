@@ -208,3 +208,37 @@ SOURCES: dict[str, Source] = {
         ),
     )
 }
+
+CENPOP_YEAR = "2020"
+CENPOP_URL = (
+    "https://www2.census.gov/geo/docs/reference/cenpop2020/county/"
+    "CenPop2020_Mean_CO.txt"
+)
+CENPOP_SOURCE = Source(
+    name="cenpop",
+    prefix="cenpop",
+    content="county",
+    version=CENPOP_YEAR,
+    extension="csv",
+    url=CENPOP_URL,
+)
+DIM_GEOGRAPHY_PATH = PROCESSED_DIR / "dim_geography.csv"
+SITES_PATH = PROCESSED_DIR / f"{SITE_TABLE}.csv"
+NEAREST_SITES_PATH = PROCESSED_DIR / "nearest_sites.csv"
+NEAREST_K = 5
+NEAREST_EXTRA_SITE_STATES: tuple[str, ...] = ()
+NEAREST_MAX_MILES = 500
+EARTH_RADIUS_MILES = 3958.8
+
+STATES: tuple[str, ...] = (STATE_FIPS,)
+COUNTY_BOUNDARIES_SOURCE = "boundaries"
+SITE_MAP_BACKGROUND_PATH = PROCESSED_DIR / "site_map_background.png"
+MAP_BOUNDS_PATH = PROCESSED_DIR / "map_bounds.csv"
+MAP_REGION = "Virginia"
+MAP_PAD_FRACTION = 0.02
+MAP_IMAGE_WIDTH_PX = 1600
+MAP_IMAGE_DPI = 100
+MAP_FILL_COLOR = "#E3E8EE"
+MAP_EDGE_COLOR = "#FFFFFF"
+MAP_EDGE_WIDTH_PX = 1.4
+MAP_ASPECT_RANGE = (0.2, 5.0)

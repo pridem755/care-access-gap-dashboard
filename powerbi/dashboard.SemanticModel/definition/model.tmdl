@@ -9,7 +9,7 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 0
 
-annotation PBI_QueryOrder = ["DataFolder","DimGeography","FactACS","FactSupply","FactSites","FactPLACES","_Measures"]
+annotation PBI_QueryOrder = ["DataFolder","DimGeography","FactACS","FactSupply","FactSites","FactPLACES","_Measures","Score Parts","Table","FactNearest"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
@@ -24,6 +24,10 @@ ref table 'Weight Poverty'
 ref table 'Weight Diabetes'
 ref table 'Weight High BP'
 ref table 'Weight Supply'
+ref table 'Score Parts'
+ref table MapGeo
+ref table Table
+ref table FactNearest
 
 ref cultureInfo en-US
 

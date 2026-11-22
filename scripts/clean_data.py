@@ -10,6 +10,7 @@ from pathlib import Path
 import pandas as pd
 
 from scripts import config
+from scripts import nearest_sites
 from scripts.atomic_write import write_atomic
 from scripts.cleaning import CleaningError, raw_inputs
 from scripts.cleaning import build_acs_va, build_dim_geography, build_hrsa_supply, build_places_va
@@ -72,6 +73,11 @@ def main(
         logger.error("Nothing in %s/ was changed.", out_dir.name)
         return 1
     write_tables(tables, out_dir)
+    try:
+        nearest_sites.run(raw_dir, log_path, out_dir, download_missing=False)
+    except ValueError as exc:
+        logger.error("Nearest sites stopped: %s", exc)
+        return 1
     return 0
 
 

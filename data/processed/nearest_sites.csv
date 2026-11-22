@@ -1,0 +1,666 @@
+fips,rank,site_id,site_name,site_city,site_fips,site_locality,miles
+51001,1,BPS-H80-007087,Metompkin Elementary School Health,Parksley,51001,Accomack County,1.1
+51001,2,BPS-H80-036498,Express Care,Onley,51001,Accomack County,7.9
+51001,3,BPS-H80-008761,Onley Community Health Center,Onancock,51001,Accomack County,8.7
+51001,4,BPS-H80-033670,Nandua Dental,Onley,51001,Accomack County,9.1
+51001,5,BPS-H80-006537,Pungoteague Dental Program,Melfa,51001,Accomack County,13.0
+51003,1,BPS-H80-021402,CVHS Peterson,Charlottesville,51540,Charlottesville city,2.0
+51003,2,BPS-H80-031519,CVHS Charlottesville,Charlottesville,51540,Charlottesville city,3.1
+51003,3,BPS-H80-001759,CVHS Southern Albemarle,Esmont,51003,Albemarle County,16.4
+51003,4,BPS-H80-018929,HCHC Elkton,Elkton,51165,Rockingham County,25.9
+51003,5,BPS-H80-000305,CVHS Buckingham,New Canton,51029,Buckingham County,30.0
+51005,1,BPS-H80-005084,Craig County Health Center,New Castle,51045,Craig County,22.8
+51005,2,BPS-H80-010195,Craig County Dental Center,New Castle,51045,Craig County,22.8
+51005,3,BPS-H80-013054,Rockbridge Area Health Center,Lexington,51163,Rockbridge County,28.7
+51005,4,BPS-H80-034515,RAHC - Buena Vista,Buena Vista,51530,Buena Vista city,31.8
+51005,5,BPS-H80-020969,Mountain View Family Dentistry,Buena Vista,51530,Buena Vista city,31.8
+51007,1,BPS-H80-001854,Amelia Healthcare Center,Amelia Court House,51007,Amelia County,0.9
+51007,2,BPS-H80-002126,CVHS Farmville,Farmville,51147,Prince Edward County,23.8
+51007,3,BPS-H80-035694,SDHS Family Dentistry,Victoria,51111,Lunenburg County,27.7
+51007,4,BPS-H80-010557,Dinwiddie Medical Center and Counseling Center,Dinwiddie,51053,Dinwiddie County,28.0
+51007,5,BPS-H80-003328,Lunenburg Medical Center,Victoria,51111,Lunenburg County,28.5
+51009,1,BPS-H80-038666,Amherst County Community Health Center,Madison Heights,51009,Amherst County,3.6
+51009,2,BPS-H80-042164,James River Dental Clinic,Madison Heights,51009,Amherst County,4.4
+51009,3,BPS-H80-025003,Blue Ridge Medical Center--Amherst,Amherst,51009,Amherst County,5.3
+51009,4,BPS-H80-000557,Johnson Health Center,Lynchburg,51680,Lynchburg city,7.6
+51009,5,BPS-H80-042337,5th Street Community Health Center,Lynchburg,51680,Lynchburg city,7.7
+51011,1,BPS-H80-033525,Blue Ridge Medical Center-Appomattox,Appomattox,51011,Appomattox County,0.7
+51011,2,BPS-H80-021616,Rustburg Community Health Center,Rustburg,51031,Campbell County,15.5
+51011,3,BPS-H80-042164,James River Dental Clinic,Madison Heights,51009,Amherst County,16.5
+51011,4,BPS-H80-038666,Amherst County Community Health Center,Madison Heights,51009,Amherst County,17.3
+51011,5,BPS-H80-042337,5th Street Community Health Center,Lynchburg,51680,Lynchburg city,17.6
+51013,1,BPS-H80-017326,Neighborhood Health at Arlington CSB,Arlington,51013,Arlington County,0.8
+51013,2,BPS-H80-010066,Neighborhood Health Arlington Sequoia,Arlington,51013,Arlington County,0.9
+51013,3,BPS-H80-038121,Neighborhood Health Arlington Pediatric Center,Arlington,51013,Arlington County,1.0
+51013,4,BPS-H80-040284,Neighborhood Health Arlington Pediatric Center,Arlington,51013,Arlington County,1.2
+51013,5,BPS-H80-034341,Neighborhood Health at Martha Custis Drive,Alexandria,51510,Alexandria city,2.5
+51015,1,BPS-H80-011881,HCHC Stone Port,Harrisonburg,51660,Harrisonburg city,21.7
+51015,2,BPS-H80-039712,HCHC Downtown,Harrisonburg,51660,Harrisonburg city,23.9
+51015,3,BPS-H80-035646,HCHC Park View,Harrisonburg,51660,Harrisonburg city,25.5
+51015,4,BPS-H80-027619,Blue Ridge Dental Center,Arrington,51125,Nelson County,29.5
+51015,5,BPS-H80-003231,"Blue Ridge Medical Center, Inc.",Arrington,51125,Nelson County,29.5
+51017,1,BPS-H80-013054,Rockbridge Area Health Center,Lexington,51163,Rockbridge County,24.4
+51017,2,BPS-H80-003265,Highland Medical Center,Monterey,51091,Highland County,28.7
+51017,3,BPS-H80-020969,Mountain View Family Dentistry,Buena Vista,51530,Buena Vista city,29.5
+51017,4,BPS-H80-034515,RAHC - Buena Vista,Buena Vista,51530,Buena Vista city,29.5
+51017,5,BPS-H80-005084,Craig County Health Center,New Castle,51045,Craig County,40.4
+51019,1,BPS-H80-012914,Bedford  Community Dental Center,Bedford,51019,Bedford County,2.7
+51019,2,BPS-H80-012911,Bedford  Community Health Center,Bedford,51019,Bedford County,2.9
+51019,3,BPS-LAL-037987,Old Forest Road Dental,Lynchburg,51680,Lynchburg city,15.6
+51019,4,BPS-H80-019744,Johnson Health Center - Lynchburg Women's and Pediatric Health Services,Lynchburg,51680,Lynchburg city,18.1
+51019,5,BPS-H80-042330,Park View,Lynchburg,51680,Lynchburg city,18.4
+51021,1,BPS-H80-001848,"Bland County Medical Clinic, Inc.",Bastian,51021,Bland County,3.7
+51021,2,BPS-H80-018073,Bland County Medical Clinic Dental Clinic,Bland,51021,Bland County,3.9
+51021,3,BPS-H80-034142,Orchard Creek Clinic,Bland,51021,Bland County,3.9
+51021,4,BPS-H80-034339,Bluestone Health Clinic,Bluefield,51185,Tazewell County,12.4
+51021,5,BPS-H80-032532,Tazewell - New Day Recovery,Tazewell,51185,Tazewell County,22.2
+51023,1,BPS-H80-033776,"New Horizons Dental Care, Williamson",Roanoke,51770,Roanoke city,12.0
+51023,2,BPS-H80-010106,"Kuumba Community Health and Wellness Center, Inc. d/b/a New Horizons Healthcare",Roanoke,51770,Roanoke city,13.2
+51023,3,BPS-H80-010195,Craig County Dental Center,New Castle,51045,Craig County,14.6
+51023,4,BPS-H80-005084,Craig County Health Center,New Castle,51045,Craig County,14.7
+51023,5,BPS-H80-012911,Bedford  Community Health Center,Bedford,51019,Bedford County,19.1
+51025,1,BPS-H80-004757,CVHS Brunswick,Alberta,51025,Brunswick County,6.2
+51025,2,BPS-H80-019253,Emporia Medical Center,Emporia,51595,Emporia city,18.6
+51025,3,BPS-H80-003328,Lunenburg Medical Center,Victoria,51111,Lunenburg County,23.6
+51025,4,BPS-H80-035694,SDHS Family Dentistry,Victoria,51111,Lunenburg County,25.8
+51025,5,BPS-H80-010557,Dinwiddie Medical Center and Counseling Center,Dinwiddie,51053,Dinwiddie County,27.2
+51027,1,BPS-H80-017972,Vansant  Respiratory Care Center,Vansant,51027,Buchanan County,2.0
+51027,2,BPS-H80-001751,Thompson Family Health Center,Vansant,51027,Buchanan County,3.7
+51027,3,BPS-H80-002035,Hurley Family Health Center,Hurley,51027,Buchanan County,11.1
+51027,4,BPS-H80-018597,Council Family Health Center,Honaker,51027,Buchanan County,12.7
+51027,5,BPS-H80-003478,Haysi Clinic,Haysi,51051,Dickenson County,13.7
+51029,1,BPS-H80-000305,CVHS Buckingham,New Canton,51029,Buckingham County,7.9
+51029,2,BPS-H80-001759,CVHS Southern Albemarle,Esmont,51003,Albemarle County,17.4
+51029,3,BPS-H80-002126,CVHS Farmville,Farmville,51147,Prince Edward County,19.6
+51029,4,BPS-H80-033525,Blue Ridge Medical Center-Appomattox,Appomattox,51011,Appomattox County,23.8
+51029,5,BPS-H80-003231,"Blue Ridge Medical Center, Inc.",Arrington,51125,Nelson County,26.1
+51031,1,BPS-H80-021616,Rustburg Community Health Center,Rustburg,51031,Campbell County,4.0
+51031,2,BPS-H80-042330,Park View,Lynchburg,51680,Lynchburg city,9.8
+51031,3,BPS-H80-019744,Johnson Health Center - Lynchburg Women's and Pediatric Health Services,Lynchburg,51680,Lynchburg city,10.2
+51031,4,BPS-LAL-037987,Old Forest Road Dental,Lynchburg,51680,Lynchburg city,10.2
+51031,5,BPS-H80-042337,5th Street Community Health Center,Lynchburg,51680,Lynchburg city,10.6
+51033,1,BPS-H80-012851,CVHS Children's Dental,Milford,51033,Caroline County,5.4
+51033,2,BPS-H80-008368,CVHS Caroline,Bowling Green,51033,Caroline County,5.7
+51033,3,BPS-H80-014842,CVHS Fredericksburg,Fredericksburg,51630,Fredericksburg city,19.3
+51033,4,BPS-H80-005341,CVHS King William,Aylett,51101,King William County,24.4
+51033,5,BPS-H80-019141,HAMHDS Woodman Center,Glen Allen,51087,Henrico County,24.7
+51035,1,BPS-H80-038712,Tri-Area Community Health at Carroll County Schools,Hillsville,51035,Carroll County,4.0
+51035,2,BPS-H80-038585,Tri-Area Community Health at Cana,Cana,51035,Carroll County,8.1
+51035,3,BPS-H80-037190,Tri-Area Community Health at Galax Schools,Galax,51640,Galax city,9.9
+51035,4,BPS-H80-036012,Tri-Area Community Health at Fries,Fries,51077,Grayson County,11.5
+51035,5,BPS-H80-003497,Tri-Area Community Health Center at Laurel Fork,Laurel Fork,51035,Carroll County,14.1
+51036,1,BPS-H80-003730,CVHS Charles City,Charles City,51036,Charles City County,2.6
+51036,2,BPS-H80-034048,CVHS- Blue Devils Health Center,Hopewell,51670,Hopewell city,13.3
+51036,3,BPS-H80-017974,Greater Fulton Medical Center,Richmond,51760,Richmond city,18.4
+51036,4,BPS-H80-027911,Henrico Area Mental Health and Developmental Services East End Center,Richmond,51087,Henrico County,18.8
+51036,5,BPS-H80-011704,Bermuda Medical Center,North Chesterfield,51041,Chesterfield County,18.8
+51037,1,BPS-H80-003283,CVHS Charlotte,Charlotte Court House,51037,Charlotte County,2.3
+51037,2,BPS-H80-038731,CVHS - Charlotte Pharmacy,Charlotte Court House,51037,Charlotte County,2.4
+51037,3,BPS-H80-035694,SDHS Family Dentistry,Victoria,51111,Lunenburg County,22.4
+51037,4,BPS-H80-002126,CVHS Farmville,Farmville,51147,Prince Edward County,23.1
+51037,5,BPS-H80-003328,Lunenburg Medical Center,Victoria,51111,Lunenburg County,24.1
+51041,1,BPS-H80-011704,Bermuda Medical Center,North Chesterfield,51041,Chesterfield County,6.4
+51041,2,BPS-H80-012583,The Southside Community Health Center of Greater Richmond,Richmond,51760,Richmond city,7.3
+51041,3,BPS-H80-021462,Safe Haven,Richmond,51760,Richmond city,8.3
+51041,4,BPS-H80-031958,Caritas,Richmond,51760,Richmond city,8.8
+51041,5,BPS-H80-009324,South Side Medical Center,Richmond,51760,Richmond city,9.1
+51043,1,BPS-H80-015332,SCH Winchester,Winchester,51840,Winchester city,11.3
+51043,2,BPS-H80-010143,Loudoun Community Health Center dba HealthWorks for Northern Virginia,Leesburg,51107,Loudoun County,24.0
+51043,3,BPS-H80-021615,Sterling,Sterling,51107,Loudoun County,31.9
+51043,4,BPS-H80-035635,Loudoun Community Health Center dba HealthWorks for Northern Virginia - Sully,Herndon,51059,Fairfax County,33.6
+51043,5,BPS-H80-012501,Loudoun Community Health Center dba HealthWorks for Northern Virginia (Herndon),Herndon,51059,Fairfax County,33.7
+51045,1,BPS-H80-010195,Craig County Dental Center,New Castle,51045,Craig County,4.0
+51045,2,BPS-H80-005084,Craig County Health Center,New Castle,51045,Craig County,4.1
+51045,3,BPS-H80-010106,"Kuumba Community Health and Wellness Center, Inc. d/b/a New Horizons Healthcare",Roanoke,51770,Roanoke city,15.8
+51045,4,BPS-H80-033776,"New Horizons Dental Care, Williamson",Roanoke,51770,Roanoke city,18.6
+51045,5,BPS-H80-012919,Montgomery Clinic,Christiansburg,51121,Montgomery County,27.0
+51047,1,BPS-H80-014842,CVHS Fredericksburg,Fredericksburg,51630,Fredericksburg city,31.3
+51047,2,BPS-H80-040910,Lunera Health - SERVE Shelter,Manassas,51683,Manassas city,31.9
+51047,3,BPS-H80-037636,CVHS-Louisa,Louisa,51109,Louisa County,33.6
+51047,4,BPS-H80-018929,HCHC Elkton,Elkton,51165,Rockingham County,34.2
+51047,5,BPS-H80-013112,Lunera Health - Manassas,Manassas,51683,Manassas city,34.2
+51049,1,BPS-H80-000305,CVHS Buckingham,New Canton,51029,Buckingham County,12.1
+51049,2,BPS-H80-002126,CVHS Farmville,Farmville,51147,Prince Edward County,14.6
+51049,3,BPS-H80-001854,Amelia Healthcare Center,Amelia Court House,51007,Amelia County,17.7
+51049,4,BPS-H80-001759,CVHS Southern Albemarle,Esmont,51003,Albemarle County,29.4
+51049,5,BPS-H80-033525,Blue Ridge Medical Center-Appomattox,Appomattox,51011,Appomattox County,32.2
+51051,1,BPS-H80-003478,Haysi Clinic,Haysi,51051,Dickenson County,6.1
+51051,2,BPS-H80-037913,Pound Medical Clinic,Pound,51195,Wise County,12.1
+51051,3,BPS-H80-003304,William A. Davis Clinic,Saint Paul,51167,Russell County,15.9
+51051,4,BPS-H80-001751,Thompson Family Health Center,Vansant,51027,Buchanan County,16.3
+51051,5,BPS-H80-018597,Council Family Health Center,Honaker,51027,Buchanan County,17.6
+51053,1,BPS-H80-010557,Dinwiddie Medical Center and Counseling Center,Dinwiddie,51053,Dinwiddie County,3.9
+51053,2,BPS-H80-030830,CVHS-Crimson Clinic,Petersburg,51730,Petersburg city,9.5
+51053,3,BPS-H80-034431,CVHS - South Sycamore,Petersburg,51730,Petersburg city,10.6
+51053,4,BPS-H80-028160,CVHS Downtown Petersburg,Petersburg,51730,Petersburg city,10.7
+51053,5,BPS-H80-000882,CVHS Petersburg,Petersburg,51730,Petersburg city,11.5
+51057,1,BPS-H80-003071,CVHS Westmoreland,Montross,51193,Westmoreland County,13.4
+51057,2,BPS-H80-005341,CVHS King William,Aylett,51101,King William County,17.1
+51057,3,BPS-H80-012851,CVHS Children's Dental,Milford,51033,Caroline County,25.2
+51057,4,BPS-H80-008368,CVHS Caroline,Bowling Green,51033,Caroline County,26.5
+51057,5,BPS-H80-027911,Henrico Area Mental Health and Developmental Services East End Center,Richmond,51087,Henrico County,36.4
+51059,1,BPS-H80-027728,Neighborhood Health at Merrifield Center,Fairfax,51059,Fairfax County,1.9
+51059,2,BPS-H80-019194,Neighborhood Health at Merrifield Center Lower Level,Fairfax,51059,Fairfax County,1.9
+51059,3,BPS-H80-036124,Neighborhood Health Joseph Willard Dental,Fairfax,51600,Fairfax city,2.2
+51059,4,BPS-H80-018165,Neighborhood Health at Annandale Dental,Annandale,51059,Fairfax County,3.1
+51059,5,BPS-H80-033017,Neighborhood Health at Annandale Medical,Annandale,51059,Fairfax County,4.7
+51061,1,BPS-H80-040910,Lunera Health - SERVE Shelter,Manassas,51683,Manassas city,15.2
+51061,2,BPS-H80-013112,Lunera Health - Manassas,Manassas,51683,Manassas city,17.8
+51061,3,BPS-H80-035635,Loudoun Community Health Center dba HealthWorks for Northern Virginia - Sully,Herndon,51059,Fairfax County,24.4
+51061,4,BPS-H80-036427,Lunera Health - Woodbridge,Woodbridge,51153,Prince William County,24.8
+51061,5,BPS-H80-014879,Lunera Health - Dumfries,Dumfries,51153,Prince William County,25.7
+51063,1,BPS-H80-009396,Tri-Area Community Health Center at Floyd,Floyd,51063,Floyd County,2.5
+51063,2,BPS-H80-041508,Tri-Area Community Health at Floyd County Schools,Floyd,51063,Floyd County,3.0
+51063,3,BPS-H80-012919,Montgomery Clinic,Christiansburg,51121,Montgomery County,13.3
+51063,4,BPS-H80-032338,Clinical Annex Montgomery,Christiansburg,51121,Montgomery County,13.3
+51063,5,BPS-H80-018300,Tri-Area Community Health Center at Ferrum,Ferrum,51067,Franklin County,17.9
+51065,1,BPS-H80-031519,CVHS Charlottesville,Charlottesville,51540,Charlottesville city,13.4
+51065,2,BPS-H80-021402,CVHS Peterson,Charlottesville,51540,Charlottesville city,14.4
+51065,3,BPS-H80-001759,CVHS Southern Albemarle,Esmont,51003,Albemarle County,16.0
+51065,4,BPS-H80-000305,CVHS Buckingham,New Canton,51029,Buckingham County,17.7
+51065,5,BPS-H80-037636,CVHS-Louisa,Louisa,51109,Louisa County,20.0
+51067,1,BPS-H80-018300,Tri-Area Community Health Center at Ferrum,Ferrum,51067,Franklin County,11.0
+51067,2,BPS-H80-033776,"New Horizons Dental Care, Williamson",Roanoke,51770,Roanoke city,18.7
+51067,3,BPS-H80-010106,"Kuumba Community Health and Wellness Center, Inc. d/b/a New Horizons Healthcare",Roanoke,51770,Roanoke city,20.4
+51067,4,BPS-H80-001076,Bassett Family Practice,Bassett,51089,Henry County,20.5
+51067,5,BPS-H80-037826,PATHS Community Medical Center - Martinsville,Martinsville,51690,Martinsville city,22.4
+51069,1,BPS-H80-015332,SCH Winchester,Winchester,51840,Winchester city,1.7
+51069,2,BPS-H80-010143,Loudoun Community Health Center dba HealthWorks for Northern Virginia,Leesburg,51107,Loudoun County,34.9
+51069,3,BPS-H80-021615,Sterling,Sterling,51107,Loudoun County,43.0
+51069,4,BPS-H80-035635,Loudoun Community Health Center dba HealthWorks for Northern Virginia - Sully,Herndon,51059,Fairfax County,44.5
+51069,5,BPS-H80-012501,Loudoun Community Health Center dba HealthWorks for Northern Virginia (Herndon),Herndon,51059,Fairfax County,44.7
+51071,1,BPS-H80-012913,Giles Clinic,Pearisburg,51071,Giles County,0.4
+51071,2,BPS-H80-018952,Pulaski/Radford Clinic,Dublin,51155,Pulaski County,14.3
+51071,3,BPS-H80-032338,Clinical Annex Montgomery,Christiansburg,51121,Montgomery County,21.7
+51071,4,BPS-H80-012919,Montgomery Clinic,Christiansburg,51121,Montgomery County,21.7
+51071,5,BPS-H80-001848,"Bland County Medical Clinic, Inc.",Bastian,51021,Bland County,25.4
+51073,1,BPS-H80-001066,Stoneybrook Physicians,Newport News,51700,Newport News city,15.7
+51073,2,BPS-H80-014829,Southeastern Virginia Health System @ Hampton Newport News Community Services Board,Hampton,51650,Hampton city,23.5
+51073,3,BPS-H80-000800,Surry Medical Center,Dendron,51181,Surry County,24.7
+51073,4,BPS-H80-017928,Warwick Boulevard Physicians,Newport News,51700,Newport News city,24.9
+51073,5,BPS-H80-027934,Southeastern Virginia Health System @ Four Oaks Day Service Center,Newport News,51700,Newport News city,25.4
+51075,1,BPS-H80-019141,HAMHDS Woodman Center,Glen Allen,51087,Henrico County,19.1
+51075,2,BPS-H80-036675,Pediatric Medical Center,Richmond,51087,Henrico County,19.5
+51075,3,BPS-H80-037636,CVHS-Louisa,Louisa,51109,Louisa County,22.8
+51075,4,BPS-H80-024630,Henderson Health Services (VUU),Richmond,51760,Richmond city,23.2
+51075,5,BPS-H80-012583,The Southside Community Health Center of Greater Richmond,Richmond,51760,Richmond city,23.7
+51077,1,BPS-H80-040585,Tri-Area Community Health at Grayson County Schools,Independence,51077,Grayson County,2.4
+51077,2,BPS-H80-036012,Tri-Area Community Health at Fries,Fries,51077,Grayson County,9.3
+51077,3,BPS-H80-037190,Tri-Area Community Health at Galax Schools,Galax,51640,Galax city,10.5
+51077,4,BPS-H80-031607,Tri-Area Community Health - Grayson Highlands,Troutdale,51077,Grayson County,16.1
+51077,5,BPS-H80-038712,Tri-Area Community Health at Carroll County Schools,Hillsville,51035,Carroll County,23.1
+51079,1,BPS-H80-021402,CVHS Peterson,Charlottesville,51540,Charlottesville city,15.3
+51079,2,BPS-H80-031519,CVHS Charlottesville,Charlottesville,51540,Charlottesville city,15.5
+51079,3,BPS-H80-018929,HCHC Elkton,Elkton,51165,Rockingham County,16.0
+51079,4,BPS-H80-011881,HCHC Stone Port,Harrisonburg,51660,Harrisonburg city,26.7
+51079,5,BPS-H80-039712,HCHC Downtown,Harrisonburg,51660,Harrisonburg city,27.9
+51081,1,BPS-H80-019253,Emporia Medical Center,Emporia,51595,Emporia city,2.0
+51081,2,BPS-H80-004817,Stony Creek Community Health Center,Stony Creek,51183,Sussex County,17.2
+51081,3,BPS-H80-004757,CVHS Brunswick,Alberta,51025,Brunswick County,22.0
+51081,4,BPS-H80-010557,Dinwiddie Medical Center and Counseling Center,Dinwiddie,51053,Dinwiddie County,24.9
+51081,5,BPS-H80-001554,Waverly Medical Center,Waverly,51183,Sussex County,32.5
+51083,1,BPS-H80-037071,PATHS Community Medical Center - South Boston,South Boston,51083,Halifax County,2.8
+51083,2,BPS-H80-003283,CVHS Charlotte,Charlotte Court House,51037,Charlotte County,26.5
+51083,3,BPS-H80-031548,Health Centers of the Piedmont - Chatham,Chatham,51143,Pittsylvania County,26.6
+51083,4,BPS-H80-038731,CVHS - Charlotte Pharmacy,Charlotte Court House,51037,Charlotte County,26.6
+51083,5,BPS-H80-031280,PATHS Community Pharmacy - Danville,Danville,51590,Danville city,28.2
+51085,1,BPS-H80-019141,HAMHDS Woodman Center,Glen Allen,51087,Henrico County,4.7
+51085,2,BPS-H80-027724,Northside Medical Center & Administration,Richmond,51760,Richmond city,8.2
+51085,3,BPS-H80-036675,Pediatric Medical Center,Richmond,51087,Henrico County,8.8
+51085,4,BPS-H80-024630,Henderson Health Services (VUU),Richmond,51760,Richmond city,8.9
+51085,5,BPS-H80-001604,Daily Planet Healthcare For The Homeless Program,Richmond,51760,Richmond city,9.8
+51087,1,BPS-H80-036675,Pediatric Medical Center,Richmond,51087,Henrico County,1.6
+51087,2,BPS-H80-019141,HAMHDS Woodman Center,Glen Allen,51087,Henrico County,3.4
+51087,3,BPS-H80-024630,Henderson Health Services (VUU),Richmond,51760,Richmond city,4.0
+51087,4,BPS-H80-027724,Northside Medical Center & Administration,Richmond,51760,Richmond city,4.4
+51087,5,BPS-H80-001604,Daily Planet Healthcare For The Homeless Program,Richmond,51760,Richmond city,4.8
+51089,1,BPS-H80-032765,MHC Dental Clinic,Martinsville,51690,Martinsville city,1.6
+51089,2,BPS-H80-037826,PATHS Community Medical Center - Martinsville,Martinsville,51690,Martinsville city,2.1
+51089,3,BPS-H80-027666,PATHS Community Pharmacy,Martinsville,51690,Martinsville city,3.0
+51089,4,BPS-H80-001076,Bassett Family Practice,Bassett,51089,Henry County,4.5
+51089,5,BPS-H80-017941,Ridgeway Family Health,Ridgeway,51089,Henry County,5.0
+51091,1,BPS-H80-003265,Highland Medical Center,Monterey,51091,Highland County,1.8
+51091,2,BPS-H80-039712,HCHC Downtown,Harrisonburg,51660,Harrisonburg city,38.2
+51091,3,BPS-H80-011881,HCHC Stone Port,Harrisonburg,51660,Harrisonburg city,38.2
+51091,4,BPS-H80-035646,HCHC Park View,Harrisonburg,51660,Harrisonburg city,38.2
+51091,5,BPS-H80-013054,Rockbridge Area Health Center,Lexington,51163,Rockbridge County,41.3
+51093,1,BPS-H80-040342,Burnetts Way Family Medicine,Suffolk,51800,Suffolk city,11.2
+51093,2,BPS-H80-027934,Southeastern Virginia Health System @ Four Oaks Day Service Center,Newport News,51700,Newport News city,12.5
+51093,3,BPS-H80-017928,Warwick Boulevard Physicians,Newport News,51700,Newport News city,12.6
+51093,4,BPS-H80-007792,48th Street Physicians,Newport News,51700,Newport News city,13.2
+51093,5,BPS-H80-002976,Community Dental Services,Newport News,51700,Newport News city,13.6
+51095,1,BPS-H80-000800,Surry Medical Center,Dendron,51181,Surry County,12.9
+51095,2,BPS-H80-001066,Stoneybrook Physicians,Newport News,51700,Newport News city,15.2
+51095,3,BPS-H80-003730,CVHS Charles City,Charles City,51036,Charles City County,17.7
+51095,4,BPS-H80-017928,Warwick Boulevard Physicians,Newport News,51700,Newport News city,25.6
+51095,5,BPS-H80-001554,Waverly Medical Center,Waverly,51183,Sussex County,25.9
+51097,1,BPS-H80-005341,CVHS King William,Aylett,51101,King William County,13.9
+51097,2,BPS-H80-003730,CVHS Charles City,Charles City,51036,Charles City County,25.9
+51097,3,BPS-H80-003071,CVHS Westmoreland,Montross,51193,Westmoreland County,26.9
+51097,4,BPS-H80-027911,Henrico Area Mental Health and Developmental Services East End Center,Richmond,51087,Henrico County,28.9
+51097,5,BPS-H80-017974,Greater Fulton Medical Center,Richmond,51760,Richmond city,30.3
+51099,1,BPS-H80-014842,CVHS Fredericksburg,Fredericksburg,51630,Fredericksburg city,17.7
+51099,2,BPS-H80-008368,CVHS Caroline,Bowling Green,51033,Caroline County,19.2
+51099,3,BPS-H80-012851,CVHS Children's Dental,Milford,51033,Caroline County,20.7
+51099,4,BPS-H80-014879,Lunera Health - Dumfries,Dumfries,51153,Prince William County,21.1
+51099,5,BPS-H80-003071,CVHS Westmoreland,Montross,51193,Westmoreland County,25.4
+51101,1,BPS-H80-005341,CVHS King William,Aylett,51101,King William County,5.0
+51101,2,BPS-H80-027911,Henrico Area Mental Health and Developmental Services East End Center,Richmond,51087,Henrico County,20.7
+51101,3,BPS-H80-027724,Northside Medical Center & Administration,Richmond,51760,Richmond city,22.3
+51101,4,BPS-H80-017974,Greater Fulton Medical Center,Richmond,51760,Richmond city,22.4
+51101,5,BPS-H80-001552,Vernon J. Harris East End CHC,Richmond,51760,Richmond city,22.6
+51103,1,BPS-H80-003071,CVHS Westmoreland,Montross,51193,Westmoreland County,32.0
+51103,2,BPS-H80-003353,Franktown Community Health Ctr,Franktown,51131,Northampton County,34.4
+51103,3,BPS-H80-006537,Pungoteague Dental Program,Melfa,51001,Accomack County,35.4
+51103,4,BPS-H80-035149,Occohannock Dental,Exmore,51131,Northampton County,36.2
+51103,5,BPS-H80-029754,Eastville Community Health Center,Eastville,51131,Northampton County,36.5
+51105,1,BPS-H80-017461,Jonesville Family Health Center,Jonesville,51105,Lee County,0.8
+51105,2,BPS-H80-002787,St. Charles Respiratory Care Ctr,Saint Charles,51105,Lee County,6.8
+51105,3,BPS-H80-002140,St. Charles Clinic,Saint Charles,51105,Lee County,6.9
+51105,4,BPS-H80-005414,Western Lee County Health Clinic,Ewing,51105,Lee County,19.2
+51105,5,BPS-H80-020965,Appalachia Family Health Center,Appalachia,51195,Wise County,22.7
+51107,1,BPS-H80-010143,Loudoun Community Health Center dba HealthWorks for Northern Virginia,Leesburg,51107,Loudoun County,5.3
+51107,2,BPS-H80-021615,Sterling,Sterling,51107,Loudoun County,5.9
+51107,3,BPS-H80-034809,Herndon Dental,Herndon,51059,Fairfax County,8.1
+51107,4,BPS-H80-012501,Loudoun Community Health Center dba HealthWorks for Northern Virginia (Herndon),Herndon,51059,Fairfax County,8.1
+51107,5,BPS-H80-035635,Loudoun Community Health Center dba HealthWorks for Northern Virginia - Sully,Herndon,51059,Fairfax County,9.5
+51109,1,BPS-H80-037636,CVHS-Louisa,Louisa,51109,Louisa County,2.1
+51109,2,BPS-H80-031519,CVHS Charlottesville,Charlottesville,51540,Charlottesville city,27.4
+51109,3,BPS-H80-021402,CVHS Peterson,Charlottesville,51540,Charlottesville city,28.4
+51109,4,BPS-H80-000305,CVHS Buckingham,New Canton,51029,Buckingham County,31.9
+51109,5,BPS-H80-014842,CVHS Fredericksburg,Fredericksburg,51630,Fredericksburg city,33.5
+51111,1,BPS-H80-003328,Lunenburg Medical Center,Victoria,51111,Lunenburg County,1.0
+51111,2,BPS-H80-035694,SDHS Family Dentistry,Victoria,51111,Lunenburg County,1.7
+51111,3,BPS-H80-004757,CVHS Brunswick,Alberta,51025,Brunswick County,19.3
+51111,4,BPS-H80-012566,PATHS Community Medical Center - Boydton,Boydton,51117,Mecklenburg County,23.0
+51111,5,BPS-H80-003283,CVHS Charlotte,Charlotte Court House,51037,Charlotte County,23.9
+51113,1,BPS-H80-018929,HCHC Elkton,Elkton,51165,Rockingham County,21.2
+51113,2,BPS-H80-031519,CVHS Charlottesville,Charlottesville,51540,Charlottesville city,27.2
+51113,3,BPS-H80-021402,CVHS Peterson,Charlottesville,51540,Charlottesville city,27.2
+51113,4,BPS-H80-037636,CVHS-Louisa,Louisa,51109,Louisa County,28.9
+51113,5,BPS-H80-011881,HCHC Stone Port,Harrisonburg,51660,Harrisonburg city,34.3
+51115,1,BPS-H80-029754,Eastville Community Health Center,Eastville,51131,Northampton County,22.9
+51115,2,BPS-H80-001066,Stoneybrook Physicians,Newport News,51700,Newport News city,23.5
+51115,3,BPS-H80-034774,Kiptopeke Dental,Cape Charles,51131,Northampton County,24.4
+51115,4,BPS-H80-003353,Franktown Community Health Ctr,Franktown,51131,Northampton County,25.6
+51115,5,BPS-H80-014829,Southeastern Virginia Health System @ Hampton Newport News Community Services Board,Hampton,51650,Hampton city,27.0
+51117,1,BPS-H80-012566,PATHS Community Medical Center - Boydton,Boydton,51117,Mecklenburg County,4.2
+51117,2,BPS-H80-003328,Lunenburg Medical Center,Victoria,51111,Lunenburg County,20.4
+51117,3,BPS-H80-035694,SDHS Family Dentistry,Victoria,51111,Lunenburg County,21.6
+51117,4,BPS-H80-004757,CVHS Brunswick,Alberta,51025,Brunswick County,25.1
+51117,5,BPS-H80-003283,CVHS Charlotte,Charlotte Court House,51037,Charlotte County,30.7
+51119,1,BPS-H80-001066,Stoneybrook Physicians,Newport News,51700,Newport News city,31.3
+51119,2,BPS-H80-029754,Eastville Community Health Center,Eastville,51131,Northampton County,35.3
+51119,3,BPS-H80-003353,Franktown Community Health Ctr,Franktown,51131,Northampton County,35.4
+51119,4,BPS-H80-003730,CVHS Charles City,Charles City,51036,Charles City County,35.7
+51119,5,BPS-H80-005341,CVHS King William,Aylett,51101,King William County,36.1
+51121,1,BPS-H80-032338,Clinical Annex Montgomery,Christiansburg,51121,Montgomery County,4.1
+51121,2,BPS-H80-012919,Montgomery Clinic,Christiansburg,51121,Montgomery County,4.2
+51121,3,BPS-H80-018952,Pulaski/Radford Clinic,Dublin,51155,Pulaski County,15.0
+51121,4,BPS-H80-012913,Giles Clinic,Pearisburg,51071,Giles County,19.4
+51121,5,BPS-H80-009396,Tri-Area Community Health Center at Floyd,Floyd,51063,Floyd County,19.6
+51125,1,BPS-H80-027619,Blue Ridge Dental Center,Arrington,51125,Nelson County,8.0
+51125,2,BPS-H80-003231,"Blue Ridge Medical Center, Inc.",Arrington,51125,Nelson County,8.0
+51125,3,BPS-H80-001759,CVHS Southern Albemarle,Esmont,51003,Albemarle County,15.9
+51125,4,BPS-H80-025003,Blue Ridge Medical Center--Amherst,Amherst,51009,Amherst County,18.5
+51125,5,BPS-H80-021402,CVHS Peterson,Charlottesville,51540,Charlottesville city,26.0
+51127,1,BPS-H80-003730,CVHS Charles City,Charles City,51036,Charles City County,10.2
+51127,2,BPS-H80-005341,CVHS King William,Aylett,51101,King William County,18.0
+51127,3,BPS-H80-027911,Henrico Area Mental Health and Developmental Services East End Center,Richmond,51087,Henrico County,18.8
+51127,4,BPS-H80-017974,Greater Fulton Medical Center,Richmond,51760,Richmond city,19.4
+51127,5,BPS-H80-001552,Vernon J. Harris East End CHC,Richmond,51760,Richmond city,20.6
+51131,1,BPS-H80-029754,Eastville Community Health Center,Eastville,51131,Northampton County,3.0
+51131,2,BPS-H80-003353,Franktown Community Health Ctr,Franktown,51131,Northampton County,6.5
+51131,3,BPS-H80-034774,Kiptopeke Dental,Cape Charles,51131,Northampton County,9.8
+51131,4,BPS-H80-035149,Occohannock Dental,Exmore,51131,Northampton County,10.8
+51131,5,BPS-H80-006537,Pungoteague Dental Program,Melfa,51001,Accomack County,19.5
+51133,1,BPS-H80-003071,CVHS Westmoreland,Montross,51193,Westmoreland County,24.2
+51133,2,BPS-H80-006537,Pungoteague Dental Program,Melfa,51001,Accomack County,37.4
+51133,3,BPS-H80-008761,Onley Community Health Center,Onancock,51001,Accomack County,39.7
+51133,4,BPS-H80-036498,Express Care,Onley,51001,Accomack County,39.9
+51133,5,BPS-H80-033670,Nandua Dental,Onley,51001,Accomack County,39.9
+51135,1,BPS-H80-035694,SDHS Family Dentistry,Victoria,51111,Lunenburg County,13.3
+51135,2,BPS-H80-003328,Lunenburg Medical Center,Victoria,51111,Lunenburg County,13.8
+51135,3,BPS-H80-001854,Amelia Healthcare Center,Amelia Court House,51007,Amelia County,14.1
+51135,4,BPS-H80-002126,CVHS Farmville,Farmville,51147,Prince Edward County,21.0
+51135,5,BPS-H80-004757,CVHS Brunswick,Alberta,51025,Brunswick County,23.1
+51137,1,BPS-H80-037636,CVHS-Louisa,Louisa,51109,Louisa County,17.9
+51137,2,BPS-H80-014842,CVHS Fredericksburg,Fredericksburg,51630,Fredericksburg city,25.3
+51137,3,BPS-H80-031519,CVHS Charlottesville,Charlottesville,51540,Charlottesville city,32.7
+51137,4,BPS-H80-021402,CVHS Peterson,Charlottesville,51540,Charlottesville city,33.3
+51137,5,BPS-H80-008368,CVHS Caroline,Bowling Green,51033,Caroline County,36.1
+51139,1,BPS-H80-018929,HCHC Elkton,Elkton,51165,Rockingham County,14.5
+51139,2,BPS-H80-035646,HCHC Park View,Harrisonburg,51660,Harrisonburg city,22.0
+51139,3,BPS-H80-039712,HCHC Downtown,Harrisonburg,51660,Harrisonburg city,22.7
+51139,4,BPS-H80-011881,HCHC Stone Port,Harrisonburg,51660,Harrisonburg city,23.7
+51139,5,BPS-H80-021402,CVHS Peterson,Charlottesville,51540,Charlottesville city,39.3
+51141,1,BPS-H80-041229,Tri-Area Community Health at Patrick County Schools,Stuart,51141,Patrick County,2.3
+51141,2,BPS-H80-038540,Connect Health- Patrick,Stuart,51141,Patrick County,5.0
+51141,3,BPS-H80-003497,Tri-Area Community Health Center at Laurel Fork,Laurel Fork,51035,Carroll County,13.1
+51141,4,BPS-H80-041508,Tri-Area Community Health at Floyd County Schools,Floyd,51063,Floyd County,17.7
+51141,5,BPS-H80-009396,Tri-Area Community Health Center at Floyd,Floyd,51063,Floyd County,18.3
+51143,1,BPS-H80-031548,Health Centers of the Piedmont - Chatham,Chatham,51143,Pittsylvania County,3.9
+51143,2,BPS-H80-036085,PATHS Community Medical Center  -  Danville Riverside,Danville,51590,Danville city,12.5
+51143,3,BPS-H80-007929,PATHS Community Medical Center - Danville,Danville,51590,Danville city,12.7
+51143,4,BPS-H80-031280,PATHS Community Pharmacy - Danville,Danville,51590,Danville city,12.8
+51143,5,BPS-H80-031425,PATHS Community Dental Center - Danville,Danville,51590,Danville city,13.2
+51145,1,BPS-H80-001854,Amelia Healthcare Center,Amelia Court House,51007,Amelia County,15.5
+51145,2,BPS-H80-036675,Pediatric Medical Center,Richmond,51087,Henrico County,20.1
+51145,3,BPS-H80-012583,The Southside Community Health Center of Greater Richmond,Richmond,51760,Richmond city,21.7
+51145,4,BPS-H80-019141,HAMHDS Woodman Center,Glen Allen,51087,Henrico County,22.3
+51145,5,BPS-H80-021462,Safe Haven,Richmond,51760,Richmond city,22.9
+51147,1,BPS-H80-002126,CVHS Farmville,Farmville,51147,Prince Edward County,3.4
+51147,2,BPS-H80-038731,CVHS - Charlotte Pharmacy,Charlotte Court House,51037,Charlotte County,18.3
+51147,3,BPS-H80-003283,CVHS Charlotte,Charlotte Court House,51037,Charlotte County,18.3
+51147,4,BPS-H80-035694,SDHS Family Dentistry,Victoria,51111,Lunenburg County,21.2
+51147,5,BPS-H80-003328,Lunenburg Medical Center,Victoria,51111,Lunenburg County,23.4
+51149,1,BPS-H80-000882,CVHS Petersburg,Petersburg,51730,Petersburg city,4.0
+51149,2,BPS-H80-034048,CVHS- Blue Devils Health Center,Hopewell,51670,Hopewell city,4.9
+51149,3,BPS-H80-034431,CVHS - South Sycamore,Petersburg,51730,Petersburg city,5.5
+51149,4,BPS-H80-028160,CVHS Downtown Petersburg,Petersburg,51730,Petersburg city,5.8
+51149,5,BPS-H80-030830,CVHS-Crimson Clinic,Petersburg,51730,Petersburg city,5.9
+51153,1,BPS-H80-013112,Lunera Health - Manassas,Manassas,51683,Manassas city,4.3
+51153,2,BPS-H80-036427,Lunera Health - Woodbridge,Woodbridge,51153,Prince William County,5.3
+51153,3,BPS-H80-040910,Lunera Health - SERVE Shelter,Manassas,51683,Manassas city,6.0
+51153,4,BPS-H80-014879,Lunera Health - Dumfries,Dumfries,51153,Prince William County,9.8
+51153,5,BPS-H80-036124,Neighborhood Health Joseph Willard Dental,Fairfax,51600,Fairfax city,12.5
+51155,1,BPS-H80-018952,Pulaski/Radford Clinic,Dublin,51155,Pulaski County,3.0
+51155,2,BPS-H80-012913,Giles Clinic,Pearisburg,51071,Giles County,16.7
+51155,3,BPS-H80-032338,Clinical Annex Montgomery,Christiansburg,51121,Montgomery County,16.9
+51155,4,BPS-H80-012919,Montgomery Clinic,Christiansburg,51121,Montgomery County,16.9
+51155,5,BPS-H80-038712,Tri-Area Community Health at Carroll County Schools,Hillsville,51035,Carroll County,22.1
+51157,1,BPS-H80-018929,HCHC Elkton,Elkton,51165,Rockingham County,33.1
+51157,2,BPS-H80-040910,Lunera Health - SERVE Shelter,Manassas,51683,Manassas city,33.8
+51157,3,BPS-H80-015332,SCH Winchester,Winchester,51840,Winchester city,34.4
+51157,4,BPS-H80-013112,Lunera Health - Manassas,Manassas,51683,Manassas city,36.5
+51157,5,BPS-H80-035635,Loudoun Community Health Center dba HealthWorks for Northern Virginia - Sully,Herndon,51059,Fairfax County,40.7
+51159,1,BPS-H80-003071,CVHS Westmoreland,Montross,51193,Westmoreland County,9.7
+51159,2,BPS-H80-005341,CVHS King William,Aylett,51101,King William County,26.8
+51159,3,BPS-H80-012851,CVHS Children's Dental,Milford,51033,Caroline County,34.4
+51159,4,BPS-H80-008368,CVHS Caroline,Bowling Green,51033,Caroline County,35.3
+51159,5,BPS-H80-003730,CVHS Charles City,Charles City,51036,Charles City County,45.5
+51161,1,BPS-H80-010106,"Kuumba Community Health and Wellness Center, Inc. d/b/a New Horizons Healthcare",Roanoke,51770,Roanoke city,1.7
+51161,2,BPS-H80-033776,"New Horizons Dental Care, Williamson",Roanoke,51770,Roanoke city,3.3
+51161,3,BPS-H80-010195,Craig County Dental Center,New Castle,51045,Craig County,17.5
+51161,4,BPS-H80-005084,Craig County Health Center,New Castle,51045,Craig County,17.5
+51161,5,BPS-H80-018300,Tri-Area Community Health Center at Ferrum,Ferrum,51067,Franklin County,23.8
+51163,1,BPS-H80-013054,Rockbridge Area Health Center,Lexington,51163,Rockbridge County,1.6
+51163,2,BPS-H80-020969,Mountain View Family Dentistry,Buena Vista,51530,Buena Vista city,5.4
+51163,3,BPS-H80-034515,RAHC - Buena Vista,Buena Vista,51530,Buena Vista city,5.4
+51163,4,BPS-H80-025003,Blue Ridge Medical Center--Amherst,Amherst,51009,Amherst County,24.8
+51163,5,BPS-H80-003231,"Blue Ridge Medical Center, Inc.",Arrington,51125,Nelson County,27.5
+51165,1,BPS-H80-039712,HCHC Downtown,Harrisonburg,51660,Harrisonburg city,1.7
+51165,2,BPS-H80-035646,HCHC Park View,Harrisonburg,51660,Harrisonburg city,2.5
+51165,3,BPS-H80-011881,HCHC Stone Port,Harrisonburg,51660,Harrisonburg city,3.0
+51165,4,BPS-H80-018929,HCHC Elkton,Elkton,51165,Rockingham County,11.9
+51165,5,BPS-H80-021402,CVHS Peterson,Charlottesville,51540,Charlottesville city,34.4
+51167,1,BPS-H80-018597,Council Family Health Center,Honaker,51027,Buchanan County,10.1
+51167,2,BPS-H80-003304,William A. Davis Clinic,Saint Paul,51167,Russell County,11.0
+51167,3,BPS-H80-014831,Meadowview Community Health Center,Meadowview,51191,Washington County,17.3
+51167,4,BPS-H80-001344,Saltville Community Health Center,Saltville,51173,Smyth County,18.0
+51167,5,BPS-H80-001903,T.K. Mckee Hospital Building,Saltville,51173,Smyth County,18.6
+51169,1,BPS-H80-010462,"Clinch River Health Services, Inc.",Dungannon,51169,Scott County,10.9
+51169,2,BPS-H80-001235,"Clinch River Health Services, Inc.",Dungannon,51169,Scott County,11.2
+51169,3,BPS-H80-020965,Appalachia Family Health Center,Appalachia,51195,Wise County,18.3
+51169,4,BPS-H80-002294,Bristol Community Health Center,Bristol,51520,Bristol city,22.3
+51169,5,BPS-H80-003304,William A. Davis Clinic,Saint Paul,51167,Russell County,24.0
+51171,1,BPS-H80-015332,SCH Winchester,Winchester,51840,Winchester city,28.8
+51171,2,BPS-H80-018929,HCHC Elkton,Elkton,51165,Rockingham County,31.7
+51171,3,BPS-H80-035646,HCHC Park View,Harrisonburg,51660,Harrisonburg city,33.1
+51171,4,BPS-H80-039712,HCHC Downtown,Harrisonburg,51660,Harrisonburg city,34.5
+51171,5,BPS-H80-011881,HCHC Stone Port,Harrisonburg,51660,Harrisonburg city,36.5
+51173,1,BPS-H80-001903,T.K. Mckee Hospital Building,Saltville,51173,Smyth County,10.7
+51173,2,BPS-H80-001344,Saltville Community Health Center,Saltville,51173,Smyth County,11.3
+51173,3,BPS-H80-004532,Konnarock Family Health Center,Damascus,51191,Washington County,11.8
+51173,4,BPS-H80-031607,Tri-Area Community Health - Grayson Highlands,Troutdale,51077,Grayson County,15.3
+51173,5,BPS-H80-014831,Meadowview Community Health Center,Meadowview,51191,Washington County,16.5
+51175,1,BPS-H80-017682,Franklin Community Health Center,Franklin,51620,Franklin city,7.4
+51175,2,BPS-H80-020981,Ivor Dental Center,Ivor,51175,Southampton County,15.5
+51175,3,BPS-H80-005442,Ivor Medical Center,Ivor,51175,Southampton County,15.6
+51175,4,BPS-H80-001554,Waverly Medical Center,Waverly,51183,Sussex County,22.1
+51175,5,BPS-H80-004817,Stony Creek Community Health Center,Stony Creek,51183,Sussex County,24.3
+51177,1,BPS-H80-014842,CVHS Fredericksburg,Fredericksburg,51630,Fredericksburg city,5.4
+51177,2,BPS-H80-008368,CVHS Caroline,Bowling Green,51033,Caroline County,17.4
+51177,3,BPS-H80-012851,CVHS Children's Dental,Milford,51033,Caroline County,19.3
+51177,4,BPS-H80-014879,Lunera Health - Dumfries,Dumfries,51153,Prince William County,26.2
+51177,5,BPS-H80-037636,CVHS-Louisa,Louisa,51109,Louisa County,26.8
+51179,1,BPS-H80-014842,CVHS Fredericksburg,Fredericksburg,51630,Fredericksburg city,9.2
+51179,2,BPS-H80-014879,Lunera Health - Dumfries,Dumfries,51153,Prince William County,12.5
+51179,3,BPS-H80-036427,Lunera Health - Woodbridge,Woodbridge,51153,Prince William County,20.2
+51179,4,BPS-H80-013112,Lunera Health - Manassas,Manassas,51683,Manassas city,22.9
+51179,5,BPS-H80-040910,Lunera Health - SERVE Shelter,Manassas,51683,Manassas city,22.9
+51181,1,BPS-H80-000800,Surry Medical Center,Dendron,51181,Surry County,1.2
+51181,2,BPS-H80-001554,Waverly Medical Center,Waverly,51183,Sussex County,13.7
+51181,3,BPS-H80-005442,Ivor Medical Center,Ivor,51175,Southampton County,15.0
+51181,4,BPS-H80-020981,Ivor Dental Center,Ivor,51175,Southampton County,15.1
+51181,5,BPS-H80-001066,Stoneybrook Physicians,Newport News,51700,Newport News city,17.4
+51183,1,BPS-H80-001554,Waverly Medical Center,Waverly,51183,Sussex County,7.7
+51183,2,BPS-H80-004817,Stony Creek Community Health Center,Stony Creek,51183,Sussex County,10.6
+51183,3,BPS-H80-000882,CVHS Petersburg,Petersburg,51730,Petersburg city,17.1
+51183,4,BPS-H80-020981,Ivor Dental Center,Ivor,51175,Southampton County,17.7
+51183,5,BPS-H80-005442,Ivor Medical Center,Ivor,51175,Southampton County,17.7
+51185,1,BPS-H80-018323,Tazewell Community Health Center,Tazewell,51185,Tazewell County,4.4
+51185,2,BPS-H80-032532,Tazewell - New Day Recovery,Tazewell,51185,Tazewell County,4.4
+51185,3,BPS-H80-034339,Bluestone Health Clinic,Bluefield,51185,Tazewell County,17.7
+51185,4,BPS-H80-001903,T.K. Mckee Hospital Building,Saltville,51173,Smyth County,21.2
+51185,5,BPS-H80-001344,Saltville Community Health Center,Saltville,51173,Smyth County,21.8
+51187,1,BPS-H80-015332,SCH Winchester,Winchester,51840,Winchester city,18.2
+51187,2,BPS-H80-010143,Loudoun Community Health Center dba HealthWorks for Northern Virginia,Leesburg,51107,Loudoun County,36.4
+51187,3,BPS-H80-040910,Lunera Health - SERVE Shelter,Manassas,51683,Manassas city,38.6
+51187,4,BPS-H80-035635,Loudoun Community Health Center dba HealthWorks for Northern Virginia - Sully,Herndon,51059,Fairfax County,40.6
+51187,5,BPS-H80-013112,Lunera Health - Manassas,Manassas,51683,Manassas city,41.2
+51191,1,BPS-H80-014831,Meadowview Community Health Center,Meadowview,51191,Washington County,7.4
+51191,2,BPS-H80-004396,Holston Family Health Center,Damascus,51191,Washington County,11.3
+51191,3,BPS-H80-002294,Bristol Community Health Center,Bristol,51520,Bristol city,15.0
+51191,4,BPS-H80-001344,Saltville Community Health Center,Saltville,51173,Smyth County,16.4
+51191,5,BPS-H80-001903,T.K. Mckee Hospital Building,Saltville,51173,Smyth County,17.1
+51193,1,BPS-H80-003071,CVHS Westmoreland,Montross,51193,Westmoreland County,7.0
+51193,2,BPS-H80-008368,CVHS Caroline,Bowling Green,51033,Caroline County,28.0
+51193,3,BPS-H80-012851,CVHS Children's Dental,Milford,51033,Caroline County,28.1
+51193,4,BPS-H80-005341,CVHS King William,Aylett,51101,King William County,32.5
+51193,5,BPS-H80-014842,CVHS Fredericksburg,Fredericksburg,51630,Fredericksburg city,35.5
+51195,1,BPS-H80-020965,Appalachia Family Health Center,Appalachia,51195,Wise County,9.2
+51195,2,BPS-H80-010462,"Clinch River Health Services, Inc.",Dungannon,51169,Scott County,11.3
+51195,3,BPS-H80-001235,"Clinch River Health Services, Inc.",Dungannon,51169,Scott County,11.4
+51195,4,BPS-H80-037913,Pound Medical Clinic,Pound,51195,Wise County,11.8
+51195,5,BPS-H80-003304,William A. Davis Clinic,Saint Paul,51167,Russell County,18.1
+51197,1,BPS-H80-034142,Orchard Creek Clinic,Bland,51021,Bland County,12.9
+51197,2,BPS-H80-018073,Bland County Medical Clinic Dental Clinic,Bland,51021,Bland County,12.9
+51197,3,BPS-H80-036012,Tri-Area Community Health at Fries,Fries,51077,Grayson County,15.4
+51197,4,BPS-H80-001848,"Bland County Medical Clinic, Inc.",Bastian,51021,Bland County,18.3
+51197,5,BPS-H80-037190,Tri-Area Community Health at Galax Schools,Galax,51640,Galax city,20.0
+51199,1,BPS-H80-001066,Stoneybrook Physicians,Newport News,51700,Newport News city,3.7
+51199,2,BPS-H80-014829,Southeastern Virginia Health System @ Hampton Newport News Community Services Board,Hampton,51650,Hampton city,10.1
+51199,3,BPS-H80-017928,Warwick Boulevard Physicians,Newport News,51700,Newport News city,10.9
+51199,4,BPS-H80-027934,Southeastern Virginia Health System @ Four Oaks Day Service Center,Newport News,51700,Newport News city,11.4
+51199,5,BPS-H80-007792,48th Street Physicians,Newport News,51700,Newport News city,12.8
+51510,1,BPS-H80-008867,Neighborhood Health at the Casey Clinic,Alexandria,51510,Alexandria city,0.8
+51510,2,BPS-H80-034341,Neighborhood Health at Martha Custis Drive,Alexandria,51510,Alexandria city,1.7
+51510,3,BPS-H80-036570,Neighborhood Health Mark Center Drive,Alexandria,51510,Alexandria city,1.7
+51510,4,BPS-H80-001589,Neighborhood Health at 2 East,Alexandria,51510,Alexandria city,2.1
+51510,5,BPS-H80-038121,Neighborhood Health Arlington Pediatric Center,Arlington,51013,Arlington County,2.9
+51520,1,BPS-H80-002294,Bristol Community Health Center,Bristol,51520,Bristol city,2.4
+51520,2,BPS-H80-014831,Meadowview Community Health Center,Meadowview,51191,Washington County,20.0
+51520,3,BPS-H80-004396,Holston Family Health Center,Damascus,51191,Washington County,21.2
+51520,4,BPS-H80-003304,William A. Davis Clinic,Saint Paul,51167,Russell County,22.7
+51520,5,BPS-H80-001235,"Clinch River Health Services, Inc.",Dungannon,51169,Scott County,22.9
+51530,1,BPS-H80-034515,RAHC - Buena Vista,Buena Vista,51530,Buena Vista city,0.1
+51530,2,BPS-H80-020969,Mountain View Family Dentistry,Buena Vista,51530,Buena Vista city,0.1
+51530,3,BPS-H80-013054,Rockbridge Area Health Center,Lexington,51163,Rockbridge County,5.6
+51530,4,BPS-H80-025003,Blue Ridge Medical Center--Amherst,Amherst,51009,Amherst County,19.4
+51530,5,BPS-H80-038666,Amherst County Community Health Center,Madison Heights,51009,Amherst County,22.3
+51540,1,BPS-H80-021402,CVHS Peterson,Charlottesville,51540,Charlottesville city,0.2
+51540,2,BPS-H80-031519,CVHS Charlottesville,Charlottesville,51540,Charlottesville city,1.1
+51540,3,BPS-H80-001759,CVHS Southern Albemarle,Esmont,51003,Albemarle County,15.5
+51540,4,BPS-H80-018929,HCHC Elkton,Elkton,51165,Rockingham County,27.5
+51540,5,BPS-H80-000305,CVHS Buckingham,New Canton,51029,Buckingham County,28.3
+51550,1,BPS-H80-011328,Chesapeake Community Health Center,Chesapeake,51550,Chesapeake city,4.6
+51550,2,BPS-H80-035991,Barbara L. Willis Wellness Center,Portsmouth,51740,Portsmouth city,5.8
+51550,3,BPS-H80-012700,CommuniCare Family Health Center,Norfolk,51710,Norfolk city,6.9
+51550,4,BPS-H80-036237,Park Place Family Health Center,Norfolk,51710,Norfolk city,9.8
+51550,5,BPS-H80-029879,Little Creek Family Health Center,Norfolk,51710,Norfolk city,10.9
+51570,1,BPS-H80-028160,CVHS Downtown Petersburg,Petersburg,51730,Petersburg city,2.6
+51570,2,BPS-H80-034431,CVHS - South Sycamore,Petersburg,51730,Petersburg city,3.1
+51570,3,BPS-H80-034048,CVHS- Blue Devils Health Center,Hopewell,51670,Hopewell city,5.1
+51570,4,BPS-H80-030830,CVHS-Crimson Clinic,Petersburg,51730,Petersburg city,5.4
+51570,5,BPS-H80-000882,CVHS Petersburg,Petersburg,51730,Petersburg city,5.6
+51580,1,BPS-H80-005084,Craig County Health Center,New Castle,51045,Craig County,20.2
+51580,2,BPS-H80-010195,Craig County Dental Center,New Castle,51045,Craig County,20.2
+51580,3,BPS-H80-013054,Rockbridge Area Health Center,Lexington,51163,Rockbridge County,31.9
+51580,4,BPS-H80-010106,"Kuumba Community Health and Wellness Center, Inc. d/b/a New Horizons Healthcare",Roanoke,51770,Roanoke city,33.7
+51580,5,BPS-H80-033776,"New Horizons Dental Care, Williamson",Roanoke,51770,Roanoke city,34.4
+51590,1,BPS-H80-036085,PATHS Community Medical Center  -  Danville Riverside,Danville,51590,Danville city,0.8
+51590,2,BPS-H80-007929,PATHS Community Medical Center - Danville,Danville,51590,Danville city,0.9
+51590,3,BPS-H80-031280,PATHS Community Pharmacy - Danville,Danville,51590,Danville city,0.9
+51590,4,BPS-H80-031425,PATHS Community Dental Center - Danville,Danville,51590,Danville city,1.0
+51590,5,BPS-H80-031548,Health Centers of the Piedmont - Chatham,Chatham,51143,Pittsylvania County,16.2
+51595,1,BPS-H80-019253,Emporia Medical Center,Emporia,51595,Emporia city,0.3
+51595,2,BPS-H80-004817,Stony Creek Community Health Center,Stony Creek,51183,Sussex County,19.3
+51595,3,BPS-H80-004757,CVHS Brunswick,Alberta,51025,Brunswick County,22.7
+51595,4,BPS-H80-010557,Dinwiddie Medical Center and Counseling Center,Dinwiddie,51053,Dinwiddie County,27.0
+51595,5,BPS-H80-017682,Franklin Community Health Center,Franklin,51620,Franklin city,32.9
+51600,1,BPS-H80-036124,Neighborhood Health Joseph Willard Dental,Fairfax,51600,Fairfax city,0.2
+51600,2,BPS-H80-027728,Neighborhood Health at Merrifield Center,Fairfax,51059,Fairfax County,3.8
+51600,3,BPS-H80-019194,Neighborhood Health at Merrifield Center Lower Level,Fairfax,51059,Fairfax County,3.8
+51600,4,BPS-H80-018165,Neighborhood Health at Annandale Dental,Annandale,51059,Fairfax County,5.5
+51600,5,BPS-H80-033017,Neighborhood Health at Annandale Medical,Annandale,51059,Fairfax County,7.1
+51610,1,BPS-H80-027728,Neighborhood Health at Merrifield Center,Fairfax,51059,Fairfax County,3.5
+51610,2,BPS-H80-019194,Neighborhood Health at Merrifield Center Lower Level,Fairfax,51059,Fairfax County,3.5
+51610,3,BPS-H80-018165,Neighborhood Health at Annandale Dental,Annandale,51059,Fairfax County,4.0
+51610,4,BPS-H80-033017,Neighborhood Health at Annandale Medical,Annandale,51059,Fairfax County,4.0
+51610,5,BPS-H80-038121,Neighborhood Health Arlington Pediatric Center,Arlington,51013,Arlington County,4.7
+51620,1,BPS-H80-017682,Franklin Community Health Center,Franklin,51620,Franklin city,1.0
+51620,2,BPS-H80-020981,Ivor Dental Center,Ivor,51175,Southampton County,15.4
+51620,3,BPS-H80-005442,Ivor Medical Center,Ivor,51175,Southampton County,15.4
+51620,4,BPS-H80-040342,Burnetts Way Family Medicine,Suffolk,51800,Suffolk city,20.6
+51620,5,BPS-H80-001554,Waverly Medical Center,Waverly,51183,Sussex County,26.2
+51630,1,BPS-H80-014842,CVHS Fredericksburg,Fredericksburg,51630,Fredericksburg city,1.0
+51630,2,BPS-H80-008368,CVHS Caroline,Bowling Green,51033,Caroline County,18.4
+51630,3,BPS-H80-014879,Lunera Health - Dumfries,Dumfries,51153,Prince William County,20.4
+51630,4,BPS-H80-012851,CVHS Children's Dental,Milford,51033,Caroline County,20.5
+51630,5,BPS-H80-036427,Lunera Health - Woodbridge,Woodbridge,51153,Prince William County,28.3
+51640,1,BPS-H80-037190,Tri-Area Community Health at Galax Schools,Galax,51640,Galax city,0.9
+51640,2,BPS-H80-036012,Tri-Area Community Health at Fries,Fries,51077,Grayson County,4.2
+51640,3,BPS-H80-038712,Tri-Area Community Health at Carroll County Schools,Hillsville,51035,Carroll County,12.7
+51640,4,BPS-H80-040585,Tri-Area Community Health at Grayson County Schools,Independence,51077,Grayson County,13.0
+51640,5,BPS-H80-038585,Tri-Area Community Health at Cana,Cana,51035,Carroll County,13.4
+51650,1,BPS-H80-014829,Southeastern Virginia Health System @ Hampton Newport News Community Services Board,Hampton,51650,Hampton city,1.4
+51650,2,BPS-H80-007792,48th Street Physicians,Newport News,51700,Newport News city,4.4
+51650,3,BPS-H80-002976,Community Dental Services,Newport News,51700,Newport News city,4.5
+51650,4,BPS-H80-003436,East End Physicians,Newport News,51700,Newport News city,4.5
+51650,5,BPS-H80-007798,East End Physicians,Newport News,51700,Newport News city,4.5
+51660,1,BPS-H80-039712,HCHC Downtown,Harrisonburg,51660,Harrisonburg city,0.5
+51660,2,BPS-H80-011881,HCHC Stone Port,Harrisonburg,51660,Harrisonburg city,1.9
+51660,3,BPS-H80-035646,HCHC Park View,Harrisonburg,51660,Harrisonburg city,2.4
+51660,4,BPS-H80-018929,HCHC Elkton,Elkton,51165,Rockingham County,13.4
+51660,5,BPS-H80-021402,CVHS Peterson,Charlottesville,51540,Charlottesville city,34.7
+51670,1,BPS-H80-034048,CVHS- Blue Devils Health Center,Hopewell,51670,Hopewell city,0.5
+51670,2,BPS-H80-028160,CVHS Downtown Petersburg,Petersburg,51730,Petersburg city,7.0
+51670,3,BPS-H80-034431,CVHS - South Sycamore,Petersburg,51730,Petersburg city,7.1
+51670,4,BPS-H80-000882,CVHS Petersburg,Petersburg,51730,Petersburg city,7.6
+51670,5,BPS-H80-030830,CVHS-Crimson Clinic,Petersburg,51730,Petersburg city,8.8
+51678,1,BPS-H80-013054,Rockbridge Area Health Center,Lexington,51163,Rockbridge County,2.5
+51678,2,BPS-H80-020969,Mountain View Family Dentistry,Buena Vista,51530,Buena Vista city,6.0
+51678,3,BPS-H80-034515,RAHC - Buena Vista,Buena Vista,51530,Buena Vista city,6.0
+51678,4,BPS-H80-025003,Blue Ridge Medical Center--Amherst,Amherst,51009,Amherst County,25.4
+51678,5,BPS-H80-038666,Amherst County Community Health Center,Madison Heights,51009,Amherst County,28.1
+51680,1,BPS-H80-019744,Johnson Health Center - Lynchburg Women's and Pediatric Health Services,Lynchburg,51680,Lynchburg city,1.4
+51680,2,BPS-H80-042330,Park View,Lynchburg,51680,Lynchburg city,1.5
+51680,3,BPS-LAL-037987,Old Forest Road Dental,Lynchburg,51680,Lynchburg city,1.8
+51680,4,BPS-H80-042337,5th Street Community Health Center,Lynchburg,51680,Lynchburg city,2.7
+51680,5,BPS-H80-000557,Johnson Health Center,Lynchburg,51680,Lynchburg city,2.7
+51683,1,BPS-H80-013112,Lunera Health - Manassas,Manassas,51683,Manassas city,1.4
+51683,2,BPS-H80-040910,Lunera Health - SERVE Shelter,Manassas,51683,Manassas city,1.5
+51683,3,BPS-H80-036427,Lunera Health - Woodbridge,Woodbridge,51153,Prince William County,9.8
+51683,4,BPS-H80-036124,Neighborhood Health Joseph Willard Dental,Fairfax,51600,Fairfax city,11.7
+51683,5,BPS-H80-035635,Loudoun Community Health Center dba HealthWorks for Northern Virginia - Sully,Herndon,51059,Fairfax County,11.8
+51685,1,BPS-H80-013112,Lunera Health - Manassas,Manassas,51683,Manassas city,1.8
+51685,2,BPS-H80-040910,Lunera Health - SERVE Shelter,Manassas,51683,Manassas city,3.4
+51685,3,BPS-H80-036427,Lunera Health - Woodbridge,Woodbridge,51153,Prince William County,9.4
+51685,4,BPS-H80-036124,Neighborhood Health Joseph Willard Dental,Fairfax,51600,Fairfax city,9.7
+51685,5,BPS-H80-035635,Loudoun Community Health Center dba HealthWorks for Northern Virginia - Sully,Herndon,51059,Fairfax County,10.2
+51690,1,BPS-H80-027666,PATHS Community Pharmacy,Martinsville,51690,Martinsville city,0.8
+51690,2,BPS-H80-032765,MHC Dental Clinic,Martinsville,51690,Martinsville city,0.9
+51690,3,BPS-H80-037826,PATHS Community Medical Center - Martinsville,Martinsville,51690,Martinsville city,1.0
+51690,4,BPS-H80-017941,Ridgeway Family Health,Ridgeway,51089,Henry County,3.9
+51690,5,BPS-H80-001076,Bassett Family Practice,Bassett,51089,Henry County,6.5
+51700,1,BPS-H80-001066,Stoneybrook Physicians,Newport News,51700,Newport News city,5.2
+51700,2,BPS-H80-017928,Warwick Boulevard Physicians,Newport News,51700,Newport News city,5.4
+51700,3,BPS-H80-027934,Southeastern Virginia Health System @ Four Oaks Day Service Center,Newport News,51700,Newport News city,5.9
+51700,4,BPS-H80-014829,Southeastern Virginia Health System @ Hampton Newport News Community Services Board,Hampton,51650,Hampton city,6.5
+51700,5,BPS-H80-007792,48th Street Physicians,Newport News,51700,Newport News city,7.5
+51710,1,BPS-H80-036237,Park Place Family Health Center,Norfolk,51710,Norfolk city,1.2
+51710,2,BPS-H80-029879,Little Creek Family Health Center,Norfolk,51710,Norfolk city,1.2
+51710,3,BPS-H80-012700,CommuniCare Family Health Center,Norfolk,51710,Norfolk city,3.1
+51710,4,BPS-H80-012688,Ocean View Medical and Dental Center,Norfolk,51710,Norfolk city,4.4
+51710,5,BPS-H80-011328,Chesapeake Community Health Center,Chesapeake,51550,Chesapeake city,5.2
+51720,1,BPS-H80-020965,Appalachia Family Health Center,Appalachia,51195,Wise County,8.4
+51720,2,BPS-H80-010462,"Clinch River Health Services, Inc.",Dungannon,51169,Scott County,10.9
+51720,3,BPS-H80-001235,"Clinch River Health Services, Inc.",Dungannon,51169,Scott County,11.0
+51720,4,BPS-H80-037913,Pound Medical Clinic,Pound,51195,Wise County,12.8
+51720,5,BPS-H80-003304,William A. Davis Clinic,Saint Paul,51167,Russell County,18.6
+51730,1,BPS-H80-034431,CVHS - South Sycamore,Petersburg,51730,Petersburg city,0.7
+51730,2,BPS-H80-028160,CVHS Downtown Petersburg,Petersburg,51730,Petersburg city,1.3
+51730,3,BPS-H80-030830,CVHS-Crimson Clinic,Petersburg,51730,Petersburg city,1.7
+51730,4,BPS-H80-000882,CVHS Petersburg,Petersburg,51730,Petersburg city,2.3
+51730,5,BPS-H80-034048,CVHS- Blue Devils Health Center,Hopewell,51670,Hopewell city,7.1
+51735,1,BPS-H80-014829,Southeastern Virginia Health System @ Hampton Newport News Community Services Board,Hampton,51650,Hampton city,5.3
+51735,2,BPS-H80-017928,Warwick Boulevard Physicians,Newport News,51700,Newport News city,8.6
+51735,3,BPS-H80-027934,Southeastern Virginia Health System @ Four Oaks Day Service Center,Newport News,51700,Newport News city,8.9
+51735,4,BPS-H80-007792,48th Street Physicians,Newport News,51700,Newport News city,9.5
+51735,5,BPS-H80-001066,Stoneybrook Physicians,Newport News,51700,Newport News city,9.6
+51740,1,BPS-H80-035991,Barbara L. Willis Wellness Center,Portsmouth,51740,Portsmouth city,2.0
+51740,2,BPS-H80-012700,CommuniCare Family Health Center,Norfolk,51710,Norfolk city,4.2
+51740,3,BPS-H80-011328,Chesapeake Community Health Center,Chesapeake,51550,Chesapeake city,4.4
+51740,4,BPS-H80-036237,Park Place Family Health Center,Norfolk,51710,Norfolk city,5.9
+51740,5,BPS-H80-029879,Little Creek Family Health Center,Norfolk,51710,Norfolk city,7.9
+51750,1,BPS-H80-018952,Pulaski/Radford Clinic,Dublin,51155,Pulaski County,6.1
+51750,2,BPS-H80-032338,Clinical Annex Montgomery,Christiansburg,51121,Montgomery County,8.6
+51750,3,BPS-H80-012919,Montgomery Clinic,Christiansburg,51121,Montgomery County,8.7
+51750,4,BPS-H80-012913,Giles Clinic,Pearisburg,51071,Giles County,16.2
+51750,5,BPS-H80-009396,Tri-Area Community Health Center at Floyd,Floyd,51063,Floyd County,20.0
+51760,1,BPS-H80-038619,East Cary Health Center,Richmond,51760,Richmond city,1.3
+51760,2,BPS-H80-001604,Daily Planet Healthcare For The Homeless Program,Richmond,51760,Richmond city,1.3
+51760,3,BPS-H80-031300,Daily Planet Health Services,Richmond,51760,Richmond city,1.3
+51760,4,BPS-H80-009324,South Side Medical Center,Richmond,51760,Richmond city,1.5
+51760,5,BPS-H80-031958,Caritas,Richmond,51760,Richmond city,1.7
+51770,1,BPS-H80-033776,"New Horizons Dental Care, Williamson",Roanoke,51770,Roanoke city,1.6
+51770,2,BPS-H80-010106,"Kuumba Community Health and Wellness Center, Inc. d/b/a New Horizons Healthcare",Roanoke,51770,Roanoke city,2.3
+51770,3,BPS-H80-010195,Craig County Dental Center,New Castle,51045,Craig County,17.6
+51770,4,BPS-H80-005084,Craig County Health Center,New Castle,51045,Craig County,17.7
+51770,5,BPS-H80-012911,Bedford  Community Health Center,Bedford,51019,Bedford County,23.9
+51775,1,BPS-H80-010106,"Kuumba Community Health and Wellness Center, Inc. d/b/a New Horizons Healthcare",Roanoke,51770,Roanoke city,3.2
+51775,2,BPS-H80-033776,"New Horizons Dental Care, Williamson",Roanoke,51770,Roanoke city,6.8
+51775,3,BPS-H80-010195,Craig County Dental Center,New Castle,51045,Craig County,15.3
+51775,4,BPS-H80-005084,Craig County Health Center,New Castle,51045,Craig County,15.4
+51775,5,BPS-H80-012919,Montgomery Clinic,Christiansburg,51121,Montgomery County,21.9
+51790,1,BPS-H80-011881,HCHC Stone Port,Harrisonburg,51660,Harrisonburg city,21.1
+51790,2,BPS-H80-039712,HCHC Downtown,Harrisonburg,51660,Harrisonburg city,23.0
+51790,3,BPS-H80-035646,HCHC Park View,Harrisonburg,51660,Harrisonburg city,24.6
+51790,4,BPS-H80-013054,Rockbridge Area Health Center,Lexington,51163,Rockbridge County,30.3
+51790,5,BPS-H80-018929,HCHC Elkton,Elkton,51165,Rockingham County,30.5
+51800,1,BPS-H80-040342,Burnetts Way Family Medicine,Suffolk,51800,Suffolk city,1.9
+51800,2,BPS-H80-035991,Barbara L. Willis Wellness Center,Portsmouth,51740,Portsmouth city,13.4
+51800,3,BPS-H80-011328,Chesapeake Community Health Center,Chesapeake,51550,Chesapeake city,15.5
+51800,4,BPS-H80-012700,CommuniCare Family Health Center,Norfolk,51710,Norfolk city,15.7
+51800,5,BPS-H80-007798,East End Physicians,Newport News,51700,Newport News city,16.2
+51810,1,BPS-H80-007800,Virginia Beach Family Medical Center,Virginia Beach,51810,Virginia Beach city,6.2
+51810,2,BPS-H80-011006,Virginia Beach Family Medical Center,Virginia Beach,51810,Virginia Beach city,6.2
+51810,3,BPS-H80-012688,Ocean View Medical and Dental Center,Norfolk,51710,Norfolk city,9.0
+51810,4,BPS-H80-011328,Chesapeake Community Health Center,Chesapeake,51550,Chesapeake city,9.7
+51810,5,BPS-H80-029879,Little Creek Family Health Center,Norfolk,51710,Norfolk city,10.3
+51820,1,BPS-H80-021402,CVHS Peterson,Charlottesville,51540,Charlottesville city,22.4
+51820,2,BPS-H80-031519,CVHS Charlottesville,Charlottesville,51540,Charlottesville city,23.4
+51820,3,BPS-H80-011881,HCHC Stone Port,Harrisonburg,51660,Harrisonburg city,23.7
+51820,4,BPS-H80-001759,CVHS Southern Albemarle,Esmont,51003,Albemarle County,24.5
+51820,5,BPS-H80-027619,Blue Ridge Dental Center,Arrington,51125,Nelson County,25.3
+51830,1,BPS-H80-001066,Stoneybrook Physicians,Newport News,51700,Newport News city,12.2
+51830,2,BPS-H80-000800,Surry Medical Center,Dendron,51181,Surry County,12.9
+51830,3,BPS-H80-003730,CVHS Charles City,Charles City,51036,Charles City County,20.7
+51830,4,BPS-H80-017928,Warwick Boulevard Physicians,Newport News,51700,Newport News city,22.6
+51830,5,BPS-H80-027934,Southeastern Virginia Health System @ Four Oaks Day Service Center,Newport News,51700,Newport News city,23.1
+51840,1,BPS-H80-015332,SCH Winchester,Winchester,51840,Winchester city,1.3
+51840,2,BPS-H80-010143,Loudoun Community Health Center dba HealthWorks for Northern Virginia,Leesburg,51107,Loudoun County,34.1
+51840,3,BPS-H80-021615,Sterling,Sterling,51107,Loudoun County,42.2
+51840,4,BPS-H80-035635,Loudoun Community Health Center dba HealthWorks for Northern Virginia - Sully,Herndon,51059,Fairfax County,43.9
+51840,5,BPS-H80-012501,Loudoun Community Health Center dba HealthWorks for Northern Virginia (Herndon),Herndon,51059,Fairfax County,44.0

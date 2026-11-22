@@ -376,11 +376,6 @@ table _Measures
 			    & " cities"
 		lineageTag: 1e7e972e-c4da-434e-acbf-1fba5aa726e7
 
-	measure Measure
-		lineageTag: ff720d8f-5ec0-4ebf-8389-1bfd55e3da83
-
-		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
-
 	measure 'Reliability Color' =
 			
 			SWITCH (
@@ -419,6 +414,345 @@ table _Measures
 			    )
 		lineageTag: 85fffccc-507e-499c-9a01-b317a2f65d78
 		dataCategory: ImageUrl
+
+	measure 'Part Percentile' =
+			
+			SWITCH (
+			    SELECTEDVALUE ( 'Score Parts'[Indicator] ),
+			    "No health insurance", SELECTEDVALUE ( DimGeography[Uninsured Pctl] ),
+			    "Living in poverty", SELECTEDVALUE ( DimGeography[Poverty Pctl] ),
+			    "Diabetes", SELECTEDVALUE ( DimGeography[Diabetes Pctl] ),
+			    "High blood pressure", SELECTEDVALUE ( DimGeography[High BP Pctl] ),
+			    "Few or no health centers", SELECTEDVALUE ( DimGeography[Supply Gap Pctl] )
+			)
+		displayFolder: 7 Locality Page
+		lineageTag: e774ee1e-3ae3-402c-b4c9-df412956e4ba
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Part Weight' =
+			
+			SWITCH (
+			    SELECTEDVALUE ( 'Score Parts'[Indicator] ),
+			    "No health insurance", [Weight Uninsured Value],
+			    "Living in poverty", [Weight Poverty Value],
+			    "Diabetes (adults)", [Weight Diabetes Value],
+			    "High blood pressure (adults)", [Weight High BP Value],
+			    "Few or no health centers", [Weight Supply Value]
+			)
+		formatString: 0
+		displayFolder: 7 Locality Page
+		lineageTag: 767fa07b-6011-4be8-a5aa-1937900e8370
+
+	measure 'Part Detail' =
+			
+			IF (
+			    NOT ISBLANK ( [Part Percentile] ),
+			    FORMAT ( [Part Percentile], "0" ) & " of 100"
+			)
+		displayFolder: 7 Locality Page
+		lineageTag: 6b57eb0d-bd1a-4ba9-9701-8084dea9d764
+
+	measure 'Part Bar' =
+			
+			VAR score = [Part Percentile]
+			VAR fillWidth = FORMAT ( DIVIDE ( score, 100 ) * 160, "0.0" )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( score ),
+			        "data:image/svg+xml;utf8,"
+			            & "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='20'>"
+			            & "<rect x='0' y='6' width='160' height='8' rx='4' fill='%23EEF1F4'/>"
+			            & "<rect x='0' y='6' width='" & fillWidth & "' height='8' rx='4' fill='%231F5182'/>"
+			            & "<text x='200' y='15' text-anchor='end' font-family='Segoe UI' font-size='14' font-weight='600' fill='%23252A31'>"
+			            & FORMAT ( score, "0" )
+			            & "</text></svg>"
+			    )
+		displayFolder: 7 Locality Page
+		lineageTag: e0c1562c-485a-4862-8eba-86957b9c5e1e
+		dataCategory: ImageUrl
+
+	measure 'Locality Facts Text' =
+			
+			VAR sites = [Supply Locations] + 0
+			RETURN
+			    IF (
+			        HASONEVALUE ( DimGeography[fips] ),
+			        SELECTEDVALUE ( DimGeography[locality_type] )
+			            & "  ·  "
+			            & SELECTEDVALUE ( DimGeography[metro_status] )
+			            & "  ·  "
+			            & FORMAT ( [Population], "#,0" ) & " residents"
+			            & "  ·  "
+			            & sites
+			            & IF ( sites = 1, " health center location", " health center locations" )
+			    )
+		isHidden
+		lineageTag: f56c2eb0-313f-4c42-b084-faf63f3e9418
+
+		changedProperty = IsHidden
+
+	measure 'Locality Name' =
+			
+			IF (
+			    HASONEVALUE ( DimGeography[fips] ),
+			    SELECTEDVALUE ( DimGeography[locality_name] ),
+			    "Choose a locality"
+			)
+		displayFolder: 7 Locality Page
+		lineageTag: ff2bc442-96fa-489c-8c42-1dac964d9570
+
+	measure 'Chip Area' =
+			
+			VAR areaType = SELECTEDVALUE ( DimGeography[metro_status] )
+			RETURN
+			    IF (
+			        HASONEVALUE ( DimGeography[fips] ),
+			        SWITCH (
+			            areaType,
+			            "Metro", "Metro · urban area",
+			            "Nonmetro", "Nonmetro · rural area",
+			            areaType
+			        )
+			    )
+		displayFolder: 7 Locality Page
+		lineageTag: 5a5b2f8c-0e8c-4ee3-80da-7c98719dc12f
+
+	measure 'Chip Residents' =
+			
+			IF (
+			    HASONEVALUE ( DimGeography[fips] ),
+			    FORMAT ( [population], "#,0" ) & " residents"
+			)
+		displayFolder: 7 Locality Page
+		lineageTag: cf2d17c6-1fa2-4ba4-99ef-6109f068815c
+
+	measure 'Chip Centers' =
+			
+			VAR sites = [Supply Locations] + 0
+			RETURN
+			    IF (
+			        HASONEVALUE ( DimGeography[fips] ),
+			        sites & IF ( sites = 1, " health center location", " health center locations" )
+			    )
+		displayFolder: 7 Locality Page
+		lineageTag: 1e50d3af-a942-406e-8c8e-4e619ff389ef
+
+	measure 'Locator Color' =
+			
+			IF (
+			    SELECTEDVALUE ( MapGeo[fips] ) = SELECTEDVALUE ( DimGeography[fips] ),
+			    "#B45309",
+			    "#E3E8EE"
+			)
+		displayFolder: 7 Locality Page
+		lineageTag: a549b6c8-08b9-4dd7-b75d-a83c067a66bd
+
+	measure 'Part Value' =
+			
+			SWITCH (
+			    SELECTEDVALUE ( 'Score Parts'[Indicator] ),
+			    "No health insurance", [uninsured rate],
+			    "Living in poverty", [poverty rate],
+			    "Diabetes", [diabetes rate],
+			    "High blood pressure", [high blood pressure rate],
+			    "Few or no health centers", [Locations per 100k Residents]
+			)
+		displayFolder: 7 Locality Page
+		lineageTag: 5539cebc-f2fa-455b-ab33-50598db7f7ad
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Part VA Median' =
+			
+			CALCULATE (
+			    MEDIANX ( VALUES ( DimGeography[fips] ), [Part Value] ),
+			    ALL ( DimGeography ), ALL ( FactACS ), ALL ( FactPLACES ),
+			    ALL ( FactSupply ), ALL ( FactSites )
+			)
+		displayFolder: 7 Locality Page
+		lineageTag: 35405def-db0b-4f29-b86e-a2e6fbb40ff8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Part VA Min' =
+			
+			CALCULATE (
+			    MINX ( VALUES ( DimGeography[fips] ), [Part Value] ),
+			    ALL ( DimGeography ), ALL ( FactACS ), ALL ( FactPLACES ),
+			    ALL ( FactSupply ), ALL ( FactSites )
+			)
+		displayFolder: 7 Locality Page
+		lineageTag: 61b6b48a-b643-400e-80c4-bb56ae8165d8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Part VA Max' =
+			
+			CALCULATE (
+			    MAXX ( VALUES ( DimGeography[fips] ), [Part Value] ),
+			    ALL ( DimGeography ), ALL ( FactACS ), ALL ( FactPLACES ),
+			    ALL ( FactSupply ), ALL ( FactSites )
+			)
+		displayFolder: 7 Locality Page
+		lineageTag: dde4ec29-512c-44d5-91cc-982353797297
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Part Dot' =
+			
+			VAR v = [Part Value]
+			VAR lo = [Part VA Min]
+			VAR hi = [Part VA Max]
+			VAR med = [Part VA Median]
+			VAR lineStart = 6
+			VAR lineLength = 108
+			VAR lineEnd = lineStart + lineLength
+			VAR dotX = FORMAT ( lineStart + DIVIDE ( v - lo, hi - lo ) * lineLength, "0.0" )
+			VAR medX = FORMAT ( lineStart + DIVIDE ( med - lo, hi - lo ) * lineLength, "0.0" )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( v ),
+			        "data:image/svg+xml;utf8,"
+			            & "<svg xmlns='http://www.w3.org/2000/svg' width='120' height='16'>"
+			            & "<line x1='" & lineStart & "' y1='8' x2='" & lineEnd & "' y2='8' stroke='%23E3E8EE' stroke-width='3' stroke-linecap='round'/>"
+			            & "<line x1='" & medX & "' y1='3' x2='" & medX & "' y2='13' stroke='%2366717F' stroke-width='2'/>"
+			            & "<circle cx='" & dotX & "' cy='8' r='5' fill='%23B45309'/>"
+			            & "</svg>"
+			    )
+		displayFolder: 7 Locality Page
+		lineageTag: dfc1a873-8541-42e5-a93f-02b2d6663f1e
+		dataCategory: ImageUrl
+
+	measure 'Part Value Text' =
+			
+			VAR v = [Part Value]
+			VAR ind = SELECTEDVALUE ( 'Score Parts'[Indicator] )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( v ),
+			        IF (
+			            ind = "Few or no health centers",
+			            FORMAT ( v, "0.0" ),
+			            IF ( v <= 1, FORMAT ( v, "0.0%" ), FORMAT ( v, "0.0" ) & "%" )
+			        )
+			    )
+		displayFolder: 7 Locality Page
+		lineageTag: 7420da6a-e4b9-4daf-b382-64ba5595c5e4
+
+	measure 'Part Median Text' =
+			
+			VAR m = [Part VA Median]
+			VAR ind = SELECTEDVALUE ( 'Score Parts'[Indicator] )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( m ),
+			        IF (
+			            ind = "Few or no health centers",
+			            FORMAT ( m, "0.0" ),
+			            IF ( m <= 1, FORMAT ( m, "0.0%" ), FORMAT ( m, "0.0" ) & "%" )
+			        )
+			    )
+		displayFolder: 7 Locality Page
+		lineageTag: 729dd3fc-c8ff-4fc3-a8a4-5ac120fcb612
+
+	measure 'Locality Short Name' =
+			
+			VAR n = SELECTEDVALUE ( DimGeography[locality_name] )
+			RETURN
+			    IF (
+			        HASONEVALUE ( DimGeography[fips] ),
+			        SUBSTITUTE ( SUBSTITUTE ( n, " County", "" ), " city", "" )
+			    )
+		displayFolder: 7 Locality Page
+		lineageTag: c1d6309a-434c-4f3e-a8c0-340d240d3807
+
+	measure 'Compare Subtitle' =
+			
+			IF (
+			    HASONEVALUE ( DimGeography[fips] ),
+			    [Locality Short Name] & " figures vs. Virginia median"
+			)
+		displayFolder: 7 Locality Page
+		lineageTag: 92993913-88db-4821-b3b2-8e2b0910cbe1
+
+	measure 'Compare Key' =
+			
+			VAR nm = [Locality Short Name]
+			VAR charW = 7.2
+			VAR nameStart = 18
+			VAR nameEnd = nameStart + LEN ( nm ) * charW
+			VAR tickX = nameEnd + 14
+			VAR medTextX = tickX + 8
+			VAR lineStart = medTextX + 12 * charW + 14
+			VAR lineEnd = lineStart + 24
+			VAR rangeTextX = lineEnd + 8
+			RETURN
+			    IF (
+			        HASONEVALUE ( DimGeography[fips] ),
+			        "data:image/svg+xml;utf8,"
+			            & "<svg xmlns='http://www.w3.org/2000/svg' width='420' height='22'>"
+			            & "<circle cx='7' cy='11' r='6' fill='%23B45309'/>"
+			            & "<text x='" & nameStart & "' y='16' font-family='Segoe UI' font-size='13' fill='%2366717F'>" & nm & "</text>"
+			            & "<line x1='" & FORMAT ( tickX, "0" ) & "' y1='4' x2='" & FORMAT ( tickX, "0" ) & "' y2='18' stroke='%2366717F' stroke-width='2'/>"
+			            & "<text x='" & FORMAT ( medTextX, "0" ) & "' y='16' font-family='Segoe UI' font-size='13' fill='%2366717F'>State median</text>"
+			            & "<line x1='" & FORMAT ( lineStart, "0" ) & "' y1='11' x2='" & FORMAT ( lineEnd, "0" ) & "' y2='11' stroke='%23D5DBE2' stroke-width='3' stroke-linecap='round'/>"
+			            & "<text x='" & FORMAT ( rangeTextX, "0" ) & "' y='16' font-family='Segoe UI' font-size='13' fill='%2366717F'>Range of 133</text>"
+			            & "</svg>"
+			    )
+		displayFolder: 7 Locality Page
+		lineageTag: 941f4dab-ee21-4a0d-991e-2d79e87a48c9
+		dataCategory: ImageUrl
+
+	measure 'Nearest Miles' =
+			
+			CALCULATE ( MIN ( FactNearest[miles] ), FactNearest[rank] = 1 )
+		displayFolder: 7 Locality Page
+		lineageTag: f834630e-07e5-4f0e-afdc-42a3d7a6d1dd
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Access Alert' =
+			
+			VAR place = [Locality Name]
+			VAR sites = [Supply Locations] + 0
+			VAR nearest = FORMAT ( [Nearest Miles], "0.0" )
+			RETURN
+			    IF (
+			        HASONEVALUE ( DimGeography[fips] ),
+			        IF (
+			            sites = 0,
+			            place & " has no counted health center location.",
+			            place & " has " & sites
+			                & IF ( sites = 1, " counted health center location", " counted health center locations" )
+			                & ". Nearest: " & nearest & " mi."
+			        )
+			    )
+		displayFolder: 7 Locality Page
+		lineageTag: e33f1021-4d30-49da-83fe-2e17cbfb339c
+
+	measure 'Access Alert Background' =
+			
+			IF ( [Supply Locations] + 0 = 0, "#FDF0E1", "#EEF3F8" )
+		displayFolder: 7 Locality Page
+		lineageTag: cf9869f9-caba-4bb5-a841-5823ba4c838f
+
+	measure 'Access Alert Text Color' =
+			
+			IF ( [Supply Locations] + 0 = 0, "#8A4B0F", "#1F5182" )
+		displayFolder: 7 Locality Page
+		lineageTag: 26f95369-9500-4872-88cc-3e35695faaed
+
+	measure 'Distance Note' =
+			
+			IF (
+			    HASONEVALUE ( DimGeography[fips] ),
+			    "Straight-line miles from the center of where "
+			        & [Locality Name]
+			        & " residents live."
+			)
+		displayFolder: 7 Locality Page
+		lineageTag: b6aec957-2568-458e-b53f-667977a433f9
 
 	partition _Measures = m
 		mode: import

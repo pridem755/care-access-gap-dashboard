@@ -56,7 +56,40 @@ To download a single source, use `--source` with its name, for example `--source
 been downloaded. If a website blocks the automated download, save the file from your browser and add
 it with `--manual-file`, for example `--manual-file rucc C:\Downloads\rucc.csv`.
 
+The cleaning step also writes `data/processed/nearest_sites.csv`, the closest health center sites to
+each locality. It needs the Census population centers file, which is downloaded once with
+`python -m scripts.nearest_sites`. Until that has been run, the cleaning step skips this table and
+says so in its output.
+
 To run the tests, use `python -m pytest -q`. The tests never contact the real websites.
+
+## Site map background
+
+The Health centers page shows every HRSA site as a dot on a scatter chart, drawn over a picture of
+the localities. After the cleaning step, run this command to write two files for this into
+`data/processed/`:
+
+```powershell
+python -m scripts.site_map_background
+```
+
+- `site_map_background.png`, a transparent image of the localities in light gray, drawn edge to
+  edge with no margins.
+- `map_bounds.csv`, one row with the longitude and latitude limits the image was drawn with, its
+  aspect ratio and its size in pixels.
+
+The image is drawn from the Census county boundary file, which `python -m scripts.download --all`
+already downloads. If it is missing, download it once with
+`python -m scripts.download --source boundaries`. The command above also downloads it if it has
+never been downloaded. It needs `dim_geography.csv`, so run it after the cleaning step.
+
+In Power BI, set the scatter chart's X axis (site longitude) to run from `lon_min` to `lon_max` and
+its Y axis (site latitude) from `lat_min` to `lat_max`, then use the PNG as the plot area
+background. The dots line up with the localities only when the axes use these exact limits.
+
+The states drawn are set by `STATES` in `scripts/config.py`. To add a state, add its two-digit FIPS
+code there, rerun the command, then import the new PNG into Power BI again and copy the new limits
+from `map_bounds.csv` into the axes.
 
 ## Why the raw data is not in Git
 
