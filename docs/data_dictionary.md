@@ -123,6 +123,43 @@ One row per locality, including localities that have no health center sites.
 | `supply_sites` | Whole number | Number of distinct active, permanent sites that serve patients, with a clinic listed under more than one site ID counted once. This equals the number of rows in `hrsa_sites_va` where `counted_once` is True. This is the main supply measure. |
 | `active_sites_any_type` | Whole number | Number of active site records of any kind, including administrative offices, mobile vans and seasonal sites. Duplicate records are not merged here. Shown for context. |
 
+## nearest_sites.csv
+
+The counted health center sites closest to each locality, one row per locality and rank. With five
+sites per locality there are 665 rows. Distances are measured from the locality's 2020 mean center
+of population; the methodology explains the method and its limits.
+
+| Column | Type | Meaning |
+|--------|------|---------|
+| `fips` | Text | Locality the row belongs to, linking to `dim_geography`. |
+| `rank` | Whole number | 1 for the nearest site, up to the number set by `NEAREST_K`. |
+| `site_id` | Text | HRSA site ID, linking to `hrsa_sites_va`. |
+| `site_name` | Text | Site name for display. All-uppercase names are shown in title case, with known abbreviations kept in capitals; other names are as HRSA wrote them. |
+| `site_city` | Text | City of the site. |
+| `site_fips` | Text | Locality the site is in. |
+| `site_locality` | Text | Name of that locality, from `dim_geography`. |
+| `miles` | Decimal number | Straight-line distance in miles, rounded to one decimal place. |
+
+## map_bounds.csv
+
+The limits of the background image for the site dot map on the Health centers page, in one row. It is
+written with `site_map_background.png` by `python -m scripts.site_map_background`, run after the
+cleaning step. It is not linked to the other tables. The scatter chart's X axis (site longitude) must
+run from `lon_min` to `lon_max` and its Y axis (site latitude) from `lat_min` to `lat_max`, or the
+dots will not line up with the image. The methodology explains the method.
+
+| Column | Type | Meaning |
+|--------|------|---------|
+| `region` | Text | Name of the area drawn, set by `MAP_REGION`, for example Virginia. |
+| `lon_min` | Decimal number | Western limit of the image in degrees of longitude, six decimal places. |
+| `lon_max` | Decimal number | Eastern limit of the image in degrees of longitude. |
+| `lat_min` | Decimal number | Southern limit of the image in degrees of latitude. |
+| `lat_max` | Decimal number | Northern limit of the image in degrees of latitude. |
+| `aspect_ratio` | Decimal number | Width divided by height without distortion: the longitude span times the cosine of the middle latitude, divided by the latitude span. |
+| `width_px` | Whole number | Width of the image in pixels, set by `MAP_IMAGE_WIDTH_PX`. |
+| `height_px` | Whole number | Height of the image in pixels: the width divided by `aspect_ratio`, rounded. |
+| `image_file` | Text | File name of the image in `data/processed/`. |
+
 ## supply_duplicates.csv
 
 The site records that were merged in the supply count. It lists every site that meets the supply rule

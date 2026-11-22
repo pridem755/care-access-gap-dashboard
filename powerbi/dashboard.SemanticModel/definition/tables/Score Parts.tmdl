@@ -1,0 +1,37 @@
+table 'Score Parts'
+	lineageTag: 29ed95ad-d5df-4043-a6e2-6e35e4206e29
+
+	column Indicator
+		dataType: string
+		lineageTag: 33b18bc8-4e02-49c4-9644-9214cf23bc04
+		summarizeBy: none
+		sourceColumn: Indicator
+		sortByColumn: Order
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 3ebde7be-f355-4277-800a-ca3d583c17b2
+		summarizeBy: none
+		sourceColumn: Order
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Score Parts' = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("PY1LDsIwDAWvYnndDb8bIMQCcYEoi7Q8NZYqu3JCEbcnzYLtjN68EPhplJGWmkm0vD3pBB74wHEI/JBNdG6CVtvg9dvMsZurpBEVpYFTB3eZM42L2YtWR2mlPXPu7oYPmZP+nyZohe/jC8f4Aw==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Indicator = _t, Order = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Indicator", type text}, {"Order", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

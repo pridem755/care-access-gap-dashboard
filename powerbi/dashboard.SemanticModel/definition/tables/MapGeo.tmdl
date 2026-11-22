@@ -1,0 +1,31 @@
+table MapGeo
+	lineageTag: c7420bc8-1ccc-4e26-aca2-33c16b08213d
+
+	column fips
+		lineageTag: a84e926f-2a5d-445c-9620-44ba99741840
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [fips]
+
+		annotation SummarizationSetBy = Automatic
+
+	column locality_name
+		lineageTag: 1d938134-2719-4a05-975a-195ea1e9f906
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [locality_name]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition MapGeo = calculated
+		mode: import
+		source =
+				
+				SELECTCOLUMNS (
+				    DimGeography,
+				    "fips", DimGeography[fips],
+				    "locality_name", DimGeography[locality_name]
+				)
+
+	annotation PBI_Id = 316bc6b0d60944f08bc670ec8a8210bf
+

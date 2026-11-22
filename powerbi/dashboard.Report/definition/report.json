@@ -70,6 +70,11 @@
           "type": "CustomTheme"
         },
         {
+          "name": "virginia_localities06319318720849132.json",
+          "path": "virginia_localities06319318720849132.json",
+          "type": "ShapeMap"
+        },
+        {
           "name": "virginia_localities9360974357016237.json",
           "path": "virginia_localities9360974357016237.json",
           "type": "ShapeMap"

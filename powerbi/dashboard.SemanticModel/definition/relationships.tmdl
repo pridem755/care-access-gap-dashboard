@@ -14,3 +14,13 @@ relationship d83aa4bf-4604-51d8-e095-444f9a8b6e9c
 	fromColumn: FactSupply.fips
 	toColumn: DimGeography.fips
 
+relationship ce8f4c1e-e6e0-002a-a466-c265d78e3bc5
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: Table.Order
+	toColumn: 'Score Parts'.Order
+
+relationship 18a694e4-8142-09b3-f442-ee3652bedb82
+	fromColumn: FactNearest.fips
+	toColumn: DimGeography.fips
+

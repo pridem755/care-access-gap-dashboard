@@ -198,6 +198,41 @@ Poverty rate = DIVIDE ( SUM ( acs_va[below_poverty] ), SUM ( acs_va[poverty_univ
 The PLACES percentages cannot be combined across localities with the data available, so they should
 only be shown for one locality at a time.
 
+## Nearest health center sites
+
+The Locality page lists the five counted health center sites closest to the selected locality. The
+distances are calculated once in the pipeline by `scripts/nearest_sites.py` and stored in
+`data/processed/nearest_sites.csv`; Power BI only reads and filters that file.
+
+Each locality is represented by its 2020 mean center of population, published by the Census Bureau.
+This is the point where the locality's population would balance, so it sits nearer to where people
+live than the geographic center does. The file is downloaded once, recorded in
+`data/raw/download_log.csv`, and reused on later runs.
+
+Only sites counted in the supply measure are searched, each once, so the list matches the supply
+count (184 sites in the November 2026 download). The distance is the straight-line, great-circle
+distance in miles, using an Earth radius of 3,958.8 miles. It is not driving distance or travel time.
+The number of sites listed is set by `NEAREST_K` in `scripts/config.py`. All-uppercase site names are
+shown in title case for display, with known abbreviations such as CVHS kept in capitals.
+
+## Site map background
+
+The dot map on the Health centers page is a Power BI scatter chart of site longitude and latitude
+drawn over an image of the localities. The image is made by `scripts/site_map_background.py` from
+the Census Bureau's 2024 cartographic boundary file of counties (1:500,000), the same file used for
+the locality list. The shapes are drawn in plain longitude and latitude (EPSG:4326), padded by 2% of
+the width and height on each side.
+
+The limits the image was drawn with are saved in `data/processed/map_bounds.csv`, and the scatter
+chart's axes must use the same limits. Because the image and the chart both use plain longitude
+and latitude between the same limits, every site falls in the right place. Degrees of longitude are
+shorter than degrees of latitude in Virginia, so the image's width-to-height ratio is the longitude
+span times the cosine of the middle latitude, divided by the latitude span. The chart should be
+sized to the same ratio so the localities are not stretched.
+
+The map only shows where sites are. Distances on this page are not measured from the map; they come
+from `nearest_sites.csv` (see Nearest health center sites).
+
 ## Limitations
 
 The sources describe different periods. The Census figures cover 2020 to 2024, the PLACES figures
@@ -225,6 +260,19 @@ The HRSA list changes over time, so the figures depend on the download date reco
 
 A site whose FIPS code is not one of the 133 localities, such as the former Bedford city (51515), is
 kept in the site table but not counted. This did not happen in the November 2026 download.
+
+The nearest-site distances are straight lines from the 2020 population center, not travel time.
+Rivers, mountains and the road network can make a site much farther to reach than it appears.
+
+Only Virginia sites are searched today, so for localities on the state border the nearest site may
+be overstated: a clinic just across the line in North Carolina, Tennessee, Kentucky, West Virginia,
+Maryland or the District of Columbia is not considered. The setting `NEAREST_EXTRA_SITE_STATES` in
+`scripts/config.py` lets the search include other states, but it has no effect until the site table
+holds counted sites from those states and the geography file names their localities.
+
+A future improvement is to replace straight-line distance with driving time from a routing service
+such as OSRM. Like the current distances, it would be calculated once in the pipeline and stored in
+the processed file, never requested live from Power BI.
 
 ## Open questions
 
